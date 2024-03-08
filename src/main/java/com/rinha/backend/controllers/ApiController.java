@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 public class ApiController {
@@ -18,8 +19,8 @@ public class ApiController {
     }
 
     @PostMapping("/clientes/{id}/transacoes")
-    public HashMap<String, Object> criaTransacao(@PathVariable(name = "id") int clienteId, @RequestBody TransacaoRequest transacaoRequest) {
-        return new TransacoesResponse(transacaoService.criaTransacoes(clienteId, transacaoRequest));
+    public Map<String, Integer> criaTransacao(@PathVariable(name = "id") int clienteId, @RequestBody TransacaoRequest transacaoRequest) {
+        return transacaoService.criatransacao(clienteId, transacaoRequest);
     }
 
     @GetMapping("/clientes/{id}/extrato")

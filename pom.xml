@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rinha</groupId>
-	<artifactId>backend</artifactId>
+	<artifactId>java-is-goat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>backend</name>
 	<description>Java is GOD!</description>

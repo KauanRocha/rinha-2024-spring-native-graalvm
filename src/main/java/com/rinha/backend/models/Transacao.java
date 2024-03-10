@@ -1,6 +1,9 @@
 package com.rinha.backend.models;
 
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Transacao {
 
     private Integer valor;
@@ -9,7 +12,6 @@ public class Transacao {
 
     private String descricao;
 
-    @Min
     private Long realizadaEm;
 
     public Integer getValor() {

@@ -4,10 +4,12 @@ import com.rinha.backend.execeptions.NotFoundException;
 import com.rinha.backend.execeptions.UnprocessableEntityException;
 import com.rinha.backend.models.Transacao;
 import com.rinha.backend.repositories.TransacaoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Service
 public class TransacaoService {
     private static final int[] limits = {0, 100000, 80000, 1000000, 10000000, 500000};
     private final TransacaoRepository transacaoRepository;

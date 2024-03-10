@@ -16,7 +16,7 @@
 #
 #ENTRYPOINT ["/app", "-Xms64m", "-Xmx120m"]
 
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:21-jdk-jammy
 WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./

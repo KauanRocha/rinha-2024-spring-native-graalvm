@@ -1,6 +1,7 @@
 package com.rinha.backend.repositories;
 
-import com.rinha.backend.payloads.TransacaoRequest;
+import com.rinha.backend.execeptions.UnprocessableEntityException;
+import com.rinha.backend.models.Transacao;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Isolation;
@@ -8,6 +9,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.sql.DataSource;
 import java.time.Instant;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Repository
 public class TransacaoRepository {
@@ -19,7 +23,7 @@ public class TransacaoRepository {
     }
 
     @Transactional(isolation = Isolation.READ_COMMITTED)
-    public int salvarTransacao(TransacaoRequest transacao, int limiteCliente, int clienteId) {
+    public int salvarTransacao(Transacao transacao, int limiteCliente, int clienteId) {
         String updateCliente =  "UPDATE clientes SET saldo = saldo - ?, limite = ? WHERE id = ?";
         if(transacao.getTipo() == "d") {
             updateCliente = "UPDATE clientes SET saldo = saldo + ?, limite = ? WHERE id = ?";
@@ -30,8 +34,19 @@ public class TransacaoRepository {
 
         int saldoCliente = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ? FOR UPDATE", Integer.class, clienteId);
         if (saldoCliente < limiteCliente) {
-            throw new RuntimeException("Transação não permitida: ultrapassaria o limite do cliente");
+            throw new UnprocessableEntityException();
         }
         return saldoCliente;
+    }
+
+    public Map<String, Object> buscarExtrato(Integer clienteId) {
+        Integer saldo = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ?", Integer.class, clienteId);
+        List<Transacao> ultimasTransacoes = jdbcTemplate.queryForList("SELECT * FROM transacao WHERE clienteId = ? ORDER BY id DESC LIMIT 10", Transacao.class, clienteId);
+
+        Map<String, Object> extrato = new HashMap<>();
+        extrato.put("saldo", saldo);
+        extrato.put("ultimas_transacoes", ultimasTransacoes);
+
+        return extrato;
     }
 }

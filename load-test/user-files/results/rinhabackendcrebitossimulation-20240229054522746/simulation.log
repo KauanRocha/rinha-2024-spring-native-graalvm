@@ -1,0 +1,189 @@
+RUN	RinhaBackendCrebitosSimulation	rinhabackendcrebitossimulation	1709185522746	Rinha de Backend - 2024/Q1: Crébito	3.10.3
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523572
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523572
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523572
+USER	validação concorrência transações - d	START	1709185523573
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523574
+USER	validação concorrência transações - d	START	1709185523575
+USER	validação concorrência transações - d	START	1709185523575
+REQUEST		validações	1709185523566	1709185564023	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564026	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564024	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523566	1709185564023	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523566	1709185564020	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564022	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523567	1709185564028	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523566	1709185564020	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564028	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523566	1709185564028	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564027	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564025	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523567	1709185564024	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523575	1709185564020	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564022	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523567	1709185564024	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564022	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564024	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523567	1709185564025	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523566	1709185564022	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564021	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564028	KO	status.find.is(200), but actually found 500
+REQUEST		validações	1709185523568	1709185564022	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709185523566	1709185564019	KO	status.find.is(200), but actually found 500
+USER	validação concorrência transações - d	END	1709185564057
+USER	validação concorrência transações - d	END	1709185564057
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564058
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+USER	validação concorrência transações - d	END	1709185564059
+REQUEST		validações	1709185523566	1709185564060	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709185564060
+USER	validação concorrência saldo - -25	START	1709185564539
+REQUEST		validações	1709185564539	1709185564540	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência saldo - -25	END	1709185564541
+USER	validação concorrência transações - c	START	1709185565545
+USER	validação concorrência transações - c	START	1709185565540
+USER	validação concorrência transações - c	START	1709185565545
+USER	validação concorrência transações - c	START	1709185565540
+REQUEST		validações	1709185565539	1709185565545	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565539	1709185565545	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565546
+USER	validação concorrência transações - c	END	1709185565546
+REQUEST		validações	1709185565539	1709185565545	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565546
+USER	validação concorrência transações - c	START	1709185565547
+USER	validação concorrência transações - c	START	1709185565547
+USER	validação concorrência transações - c	START	1709185565547
+USER	validação concorrência transações - c	START	1709185565547
+REQUEST		validações	1709185565539	1709185565547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565539	1709185565547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565546	1709185565547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565546	1709185565547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	START	1709185565548
+USER	validação concorrência transações - c	START	1709185565548
+USER	validação concorrência transações - c	END	1709185565548
+REQUEST		validações	1709185565547	1709185565548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565547	1709185565548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565548
+USER	validação concorrência transações - c	END	1709185565548
+USER	validação concorrência transações - c	END	1709185565548
+USER	validação concorrência transações - c	END	1709185565548
+USER	validação concorrência transações - c	END	1709185565548
+USER	validação concorrência transações - c	START	1709185565548
+USER	validação concorrência transações - c	START	1709185565548
+REQUEST		validações	1709185565546	1709185565548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565546	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	START	1709185565549
+USER	validação concorrência transações - c	START	1709185565549
+USER	validação concorrência transações - c	START	1709185565549
+USER	validação concorrência transações - c	START	1709185565549
+REQUEST		validações	1709185565546	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565548	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	START	1709185565549
+USER	validação concorrência transações - c	END	1709185565549
+USER	validação concorrência transações - c	END	1709185565549
+REQUEST		validações	1709185565546	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565549
+USER	validação concorrência transações - c	START	1709185565549
+REQUEST		validações	1709185565546	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565546	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565549
+USER	validação concorrência transações - c	END	1709185565549
+USER	validação concorrência transações - c	START	1709185565549
+REQUEST		validações	1709185565545	1709185565549	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	START	1709185565549
+REQUEST		validações	1709185565539	1709185565550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565545	1709185565550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565550
+USER	validação concorrência transações - c	END	1709185565550
+USER	validação concorrência transações - c	END	1709185565550
+USER	validação concorrência transações - c	END	1709185565550
+USER	validação concorrência transações - c	END	1709185565550
+USER	validação concorrência transações - c	START	1709185565550
+USER	validação concorrência transações - c	START	1709185565550
+REQUEST		validações	1709185565546	1709185565550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	START	1709185565550
+USER	validação concorrência transações - c	START	1709185565550
+REQUEST		validações	1709185565545	1709185565550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565545	1709185565550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565545	1709185565551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185565539	1709185565551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565551
+USER	validação concorrência transações - c	START	1709185565551
+USER	validação concorrência transações - c	END	1709185565551
+USER	validação concorrência transações - c	END	1709185565551
+USER	validação concorrência transações - c	END	1709185565551
+USER	validação concorrência transações - c	END	1709185565551
+REQUEST		validações	1709185565547	1709185565551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência transações - c	END	1709185565551
+USER	validação concorrência saldo - 0	START	1709185566539
+REQUEST		validações	1709185566539	1709185566540	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação concorrência saldo - 0	END	1709185566540
+USER	validações	START	1709185567539
+USER	validações	START	1709185567539
+USER	validações	START	1709185567539
+USER	validações	START	1709185567539
+USER	validações	START	1709185567539
+USER	validação HTTP 404	START	1709185567540
+REQUEST		validações	1709185567539	1709185567540	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+USER	validação HTTP 404	END	1709185567540
+REQUEST		validações	1709185567546	1709185567547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567546	1709185567547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567546	1709185567547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567546	1709185567547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567546	1709185567547	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567547	1709185567548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567547	1709185567548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567547	1709185567548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567547	1709185567548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567547	1709185567548	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567549	1709185567550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567549	1709185567550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567549	1709185567550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567549	1709185567550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567549	1709185567550	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567550	1709185567551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567550	1709185567551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567550	1709185567551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567550	1709185567551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567550	1709185567551	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567552	1709185567553	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567552	1709185567553	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567552	1709185567553	KO	j.n.ConnectException: finishConnect(..) failed: Connection refused
+REQUEST		validações	1709185567552	1709185567553	KO	

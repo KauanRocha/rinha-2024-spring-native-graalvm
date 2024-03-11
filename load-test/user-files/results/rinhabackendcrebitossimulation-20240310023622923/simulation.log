@@ -1,0 +1,209 @@
+RUN	RinhaBackendCrebitosSimulation	rinhabackendcrebitossimulation	1710038182923	Rinha de Backend - 2024/Q1: Crébito	3.10.3
+USER	validação concorrência transações - d	START	1710038183981
+USER	validação concorrência transações - d	START	1710038183984
+USER	validação concorrência transações - d	START	1710038183984
+USER	validação concorrência transações - d	START	1710038183983
+USER	validação concorrência transações - d	START	1710038183984
+USER	validação concorrência transações - d	START	1710038183984
+USER	validação concorrência transações - d	START	1710038183985
+USER	validação concorrência transações - d	START	1710038183986
+USER	validação concorrência transações - d	START	1710038183986
+USER	validação concorrência transações - d	START	1710038183986
+USER	validação concorrência transações - d	START	1710038183986
+USER	validação concorrência transações - d	START	1710038183988
+USER	validação concorrência transações - d	START	1710038183988
+USER	validação concorrência transações - d	START	1710038183989
+USER	validação concorrência transações - d	START	1710038183989
+USER	validação concorrência transações - d	START	1710038183989
+USER	validação concorrência transações - d	START	1710038183990
+USER	validação concorrência transações - d	START	1710038183991
+USER	validação concorrência transações - d	START	1710038183991
+USER	validação concorrência transações - d	START	1710038183991
+USER	validação concorrência transações - d	START	1710038183991
+USER	validação concorrência transações - d	START	1710038183991
+USER	validação concorrência transações - d	START	1710038183992
+USER	validação concorrência transações - d	START	1710038183992
+USER	validação concorrência transações - d	START	1710038183993
+REQUEST		validações	1710038183980	1710038184186	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183990	1710038184185	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184191	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184198	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184184	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183986	1710038184184	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184183	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184206	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183989	1710038184196	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184193	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184183	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184215	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184213	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184183	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184185	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184215	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184183	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184184	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184183	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184203	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184185	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183979	1710038184200	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1710038183978	1710038184189	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1710038184231
+USER	validação concorrência transações - d	END	1710038184231
+USER	validação concorrência transações - d	END	1710038184232
+USER	validação concorrência transações - d	END	1710038184232
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184233
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+REQUEST		validações	1710038183979	1710038184233	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184234
+USER	validação concorrência transações - d	END	1710038184235
+USER	validação concorrência transações - d	END	1710038184235
+USER	validação concorrência transações - d	END	1710038184235
+REQUEST		validações	1710038183978	1710038184235	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1710038184236
+USER	validação concorrência saldo - -25	START	1710038184930
+REQUEST		validações	1710038184929	1710038184937	KO	jmesPath(saldo.total).find.is(-25), but actually found nothing
+USER	validação concorrência saldo - -25	END	1710038185049
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185929
+USER	validação concorrência transações - c	START	1710038185930
+USER	validação concorrência transações - c	START	1710038185930
+USER	validação concorrência transações - c	START	1710038185930
+USER	validação concorrência transações - c	START	1710038185931
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185932
+USER	validação concorrência transações - c	START	1710038185933
+USER	validação concorrência transações - c	START	1710038185933
+USER	validação concorrência transações - c	START	1710038185933
+USER	validação concorrência transações - c	START	1710038185933
+USER	validação concorrência transações - c	START	1710038185933
+REQUEST		validações	1710038185929	1710038185947	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185948
+REQUEST		validações	1710038185928	1710038185949	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185950
+REQUEST		validações	1710038185929	1710038185951	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185952
+REQUEST		validações	1710038185928	1710038185953	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185955
+REQUEST		validações	1710038185929	1710038185957	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185958
+REQUEST		validações	1710038185928	1710038185959	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185960
+REQUEST		validações	1710038185931	1710038185960	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185962
+REQUEST		validações	1710038185929	1710038185963	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185964
+REQUEST		validações	1710038185928	1710038185965	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185966
+REQUEST		validações	1710038185932	1710038185966	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185968
+REQUEST		validações	1710038185931	1710038185969	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185970
+REQUEST		validações	1710038185929	1710038185972	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185973
+REQUEST		validações	1710038185931	1710038185974	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185975
+REQUEST		validações	1710038185933	1710038185975	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185976
+REQUEST		validações	1710038185929	1710038185977	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185978
+REQUEST		validações	1710038185933	1710038185979	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185980
+REQUEST		validações	1710038185930	1710038185982	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185983
+REQUEST		validações	1710038185931	1710038185984	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185985
+REQUEST		validações	1710038185933	1710038185985	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185986
+REQUEST		validações	1710038185929	1710038185987	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185989
+REQUEST		validações	1710038185929	1710038185989	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185991
+REQUEST		validações	1710038185932	1710038185991	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185992
+REQUEST		validações	1710038185933	1710038185993	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185994
+REQUEST		validações	1710038185931	1710038185995	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185996
+REQUEST		validações	1710038185929	1710038185997	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1710038185998
+USER	validação concorrência saldo - 0	START	1710038186928
+REQUEST		validações	1710038186928	1710038186936	KO	jmesPath(saldo.total).find.is(0), but actually found nothing
+USER	validação concorrência saldo - 0	END	1710038186940
+USER	validação HTTP 404	START	1710038187929
+USER	validações	START	1710038187931
+USER	validações	START	1710038187931
+USER	validações	START	1710038187931
+USER	validações	START	1710038187931
+USER	validações	START	1710038187931
+REQUEST		validações	1710038187929	1710038187935	OK	 
+USER	validação HTTP 404	END	1710038187936
+REQUEST		validações	1710038187940	1710038187947	KO	jmesPath(saldo.limite).find.is(80000), but actually found nothing
+REQUEST		validações	1710038187940	1710038187947	KO	jmesPath(saldo.limite).find.is(500000), but actually found nothing
+REQUEST		validações	1710038187940	1710038187947	KO	jmesPath(saldo.limite).find.is(100000), but actually found nothing
+REQUEST		validações	1710038187940	1710038187947	KO	jmesPath(saldo.limite).find.is(10000000), but actually found nothing
+REQUEST		validações	1710038187940	1710038187947	KO	jmesPath(saldo.limite).find.is(1000000), but actually found nothing
+REQUEST		validações	1710038187950	1710038187961	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187950	1710038187961	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187950	1710038187961	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187950	1710038187961	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187950	1710038187961	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187967	1710038187977	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187967	1710038187977	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187967	1710038187977	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187967	1710038187977	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187967	1710038187977	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187978	1710038187984	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1710038187978	1710038187984	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1710038187978	1710038187984	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1710038187978	1710038187984	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1710038187978	1710038187984	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1710038187992	1710038188003	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187992	1710038188003	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187992	1710038188003	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187992	1710038188003	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038187992	1710038188003	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1710038188005	1710038188016	OK	 
+REQUEST		validações	1710038188005	1710038188016	OK	 
+REQUEST		validações	1710038188005	1710038188016	OK	 
+REQUEST		validações	1710038188005	1710038188016	OK	 
+REQUEST		validações	1710038188005	1710038188016	OK	 
+REQUEST		validações	1710038188017	1710038188023	OK	 
+REQUEST		validações	1710038188017	1710038188023	OK	 
+REQUEST		validações	1710038188017	1710038188023	OK	 
+REQUEST		validações	1710038188017	1710038188023	OK	 
+REQUEST		validações	1710038188017	1710038188023	OK	 
+REQUEST		validações	1710038188024	1710038188030	OK	 
+REQUEST		validações	1710038188024	1710038188030	OK	 
+REQUEST		validações	1710038188024	1710038188030	OK	 
+REQUEST		validações	1710038188024	1710038188030	OK	 
+REQUEST		validações	1710038188025	1710038188030	OK	 
+REQUEST		validações	1710038188031	1710038188037	OK	 
+REQUEST		validações	1710038188031	1710038188037	OK	 
+REQUEST		validações	1710038188031	1710038188037	OK	 
+REQUEST		

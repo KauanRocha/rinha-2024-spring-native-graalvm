@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Service
 public class TransacaoService {
-    private static final int[] limits = {0, 100000, 80000, 1000000, 10000000, 500000};
+    private static final int[] limites = {0, 100000, 80000, 1000000, 10000000, 500000};
     private final TransacaoRepository transacaoRepository;
 
     public TransacaoService(TransacaoRepository transacaoRepository) {
@@ -21,17 +21,14 @@ public class TransacaoService {
     public Map<String, Integer> criaTransacao(int id, Transacao request) {
         checkCliente(id);
         Map<String, Integer> reponse = new HashMap<>();
-        reponse.put("saldo", transacaoRepository.salvarTransacao(request, limits[id], id));
-        reponse.put("limite", limits[id]);
+        reponse.put("saldo", transacaoRepository.salvarTransacao(request, limites[id], id));
+        reponse.put("limite", limites[id]);
         return reponse;
     }
 
     public Map<String, Object> buscarExtrato(int clienteId) {
         checkCliente(clienteId);
-        Map<String, Object> extrato = transacaoRepository.buscarExtrato(clienteId);
-        extrato.put("limte", limits[clienteId]);
-
-        return extrato;
+        return transacaoRepository.buscarExtrato(clienteId, limites[clienteId]);
     }
 
     public void checkCliente(int clienteId) {
@@ -41,7 +38,9 @@ public class TransacaoService {
     }
 
     public static void validarTransacao(Transacao transacao) {
-        if (transacao.getValor() == null || transacao.getValor() <= 0 ||
+        if (transacao.getValor() == null ||
+                transacao.getValor().doubleValue() - transacao.getValor().intValue()!= 0||
+                transacao.getValor().intValue() <= 0 ||
                 !"c".equals(transacao.getTipo()) && !"d".equals(transacao.getTipo()) ||
                 transacao.getDescricao() == null || transacao.getDescricao().isEmpty() || transacao.getDescricao().length() > 10) {
             throw new UnprocessableEntityException();

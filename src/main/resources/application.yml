@@ -1,11 +1,16 @@
+server:
+  port: 9999
+  compression:
+    enabled: true
 spring:
   application:
+    server:
     name: java-is-goat
   threads:
     virtual:
       enabled: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/rinha
+    url: jdbc:postgresql://db/rinha
     username: postgres
     password: postgres
   jpa:

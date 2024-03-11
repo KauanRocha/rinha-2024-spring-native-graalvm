@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.sql.DataSource;
-import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,26 +22,38 @@ public class TransacaoRepository {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
 
-    @Transactional(isolation = Isolation.READ_COMMITTED)
+    @Transactional()
     public int salvarTransacao(Transacao transacao, int limiteCliente, int clienteId) {
         String updateCliente =  "UPDATE clientes SET saldo = saldo - ?, limite = ? WHERE id = ?";
-        if(transacao.getTipo() == "d") {
+        if(transacao.getTipo().equals("c")) {
             updateCliente = "UPDATE clientes SET saldo = saldo + ?, limite = ? WHERE id = ?";
         }
-        jdbcTemplate.update("INSERT INTO transacoes (valor, cliente_id, tipo, descricao, realizada_em) VALUES (?, ?, ?, ?); " +
-                        updateCliente, transacao.getValor(), clienteId, transacao.getTipo(), transacao.getDescricao(), Instant.now(),
+        jdbcTemplate.update("INSERT INTO transacoes (valor, cliente_id, tipo, descricao, realizada_em) VALUES (?, ?, ?, ?,?); " +
+                        updateCliente, transacao.getValor(), clienteId, transacao.getTipo(), transacao.getDescricao(), LocalDateTime.now(),
                 transacao.getValor(), limiteCliente, clienteId);
 
-        int saldoCliente = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ? FOR UPDATE", Integer.class, clienteId);
-        if (saldoCliente < limiteCliente) {
+        int saldoCliente = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ?", Integer.class, clienteId);
+        if (saldoCliente < -limiteCliente) {
             throw new UnprocessableEntityException();
         }
         return saldoCliente;
     }
 
-    public Map<String, Object> buscarExtrato(Integer clienteId) {
-        Integer saldo = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ?", Integer.class, clienteId);
-        List<Transacao> ultimasTransacoes = jdbcTemplate.queryForList("SELECT * FROM transacao WHERE clienteId = ? ORDER BY id DESC LIMIT 10", Transacao.class, clienteId);
+    public Map<String, Object> buscarExtrato(Integer clienteId, int limite) {
+        Integer saldoAtual = jdbcTemplate.queryForObject("SELECT saldo FROM clientes WHERE id = ?", Integer.class, clienteId);
+        List<Transacao> ultimasTransacoes = jdbcTemplate.query("SELECT transacoes.valor, transacoes.tipo, transacoes.descricao, transacoes.realizada_em FROM transacoes WHERE cliente_id = ? ORDER BY id DESC LIMIT 10",
+                (resultSet, rowNum) -> {
+                    Transacao transacao = new Transacao();
+                    transacao.setValor(resultSet.getInt("valor"));
+                    transacao.setTipo(resultSet.getString("tipo"));
+                    transacao.setDescricao(resultSet.getString("descricao"));
+                    transacao.setRealizadaEm(resultSet.getTimestamp("realizada_em").toLocalDateTime());
+                    return transacao;
+                }, clienteId);
+        Map<String, Object> saldo = new HashMap<>();
+        saldo.put("total", saldoAtual);
+        saldo.put("data_extrato", LocalDateTime.now());
+        saldo.put("limite", limite);
 
         Map<String, Object> extrato = new HashMap<>();
         extrato.put("saldo", saldo);

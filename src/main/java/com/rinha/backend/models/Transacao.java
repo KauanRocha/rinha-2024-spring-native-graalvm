@@ -3,22 +3,23 @@ package com.rinha.backend.models;
 
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDateTime;
+
 @Component
 public class Transacao {
-
-    private Integer valor;
+    private Number valor;
 
     private String tipo;
 
     private String descricao;
 
-    private Long realizadaEm;
+    private LocalDateTime realizadaEm;
 
-    public Integer getValor() {
+    public Number getValor() {
         return valor;
     }
 
-    public void setValor(Integer valor) {
+    public void setValor(Number valor) {
         this.valor = valor;
     }
 
@@ -38,11 +39,11 @@ public class Transacao {
         this.descricao = descricao;
     }
 
-    public Long getRealizadaEm() {
+    public LocalDateTime getRealizadaEm() {
         return realizadaEm;
     }
 
-    public void setRealizadaEm(Long realizadaEm) {
+    public void setRealizadaEm(LocalDateTime realizadaEm) {
         this.realizadaEm = realizadaEm;
     }
 }

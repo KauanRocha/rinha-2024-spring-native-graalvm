@@ -1,0 +1,2844 @@
+RUN	RinhaBackendCrebitosSimulation	rinhabackendcrebitossimulation	1709181719591	Rinha de Backend - 2024/Q1: Crébito	3.10.3
+USER	validação concorrência transações - d	START	1709181721168
+USER	validação concorrência transações - d	START	1709181721167
+USER	validação concorrência transações - d	START	1709181721168
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721169
+USER	validação concorrência transações - d	START	1709181721170
+USER	validação concorrência transações - d	START	1709181721171
+USER	validação concorrência transações - d	START	1709181721167
+USER	validação concorrência transações - d	START	1709181721171
+USER	validação concorrência transações - d	START	1709181721172
+USER	validação concorrência transações - d	START	1709181721172
+USER	validação concorrência transações - d	START	1709181721173
+USER	validação concorrência transações - d	START	1709181721173
+USER	validação concorrência transações - d	START	1709181721173
+USER	validação concorrência transações - d	START	1709181721173
+USER	validação concorrência transações - d	START	1709181721174
+USER	validação concorrência transações - d	START	1709181721174
+USER	validação concorrência transações - d	START	1709181721175
+USER	validação concorrência transações - d	START	1709181721175
+USER	validação concorrência transações - d	START	1709181721176
+USER	validação concorrência transações - d	START	1709181721176
+REQUEST		validações	1709181721153	1709181721207	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721245
+REQUEST		validações	1709181721154	1709181721299	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721302
+REQUEST		validações	1709181721153	1709181721368	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721369
+REQUEST		validações	1709181721153	1709181721399	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721400
+REQUEST		validações	1709181721158	1709181721403	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721160	1709181721403	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721404
+REQUEST		validações	1709181721153	1709181721403	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721405
+USER	validação concorrência transações - d	END	1709181721405
+REQUEST		validações	1709181721153	1709181721468	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721154	1709181721468	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721174	1709181721468	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721153	1709181721468	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721153	1709181721468	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721469
+USER	validação concorrência transações - d	END	1709181721469
+USER	validação concorrência transações - d	END	1709181721470
+USER	validação concorrência transações - d	END	1709181721470
+USER	validação concorrência transações - d	END	1709181721470
+REQUEST		validações	1709181721154	1709181721470	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721472
+REQUEST		validações	1709181721153	1709181721471	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721159	1709181721471	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721473
+USER	validação concorrência transações - d	END	1709181721473
+REQUEST		validações	1709181721153	1709181721499	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721501
+REQUEST		validações	1709181721153	1709181721501	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721153	1709181721501	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721153	1709181721501	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721502
+USER	validação concorrência transações - d	END	1709181721502
+USER	validação concorrência transações - d	END	1709181721502
+REQUEST		validações	1709181721153	1709181721506	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721507
+REQUEST		validações	1709181721153	1709181721564	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721565
+REQUEST		validações	1709181721153	1709181721566	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181721166	1709181721566	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721567
+USER	validação concorrência transações - d	END	1709181721568
+REQUEST		validações	1709181721153	1709181721598	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721600
+REQUEST		validações	1709181721153	1709181721603	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - d	END	1709181721604
+USER	validação concorrência saldo - -25	START	1709181722069
+REQUEST		validações	1709181722068	1709181722081	KO	jmesPath(saldo.total).find.is(-25), but actually found -100000
+USER	validação concorrência saldo - -25	END	1709181722254
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723069
+USER	validação concorrência transações - c	START	1709181723070
+USER	validação concorrência transações - c	START	1709181723071
+USER	validação concorrência transações - c	START	1709181723073
+USER	validação concorrência transações - c	START	1709181723073
+USER	validação concorrência transações - c	START	1709181723073
+USER	validação concorrência transações - c	START	1709181723075
+USER	validação concorrência transações - c	START	1709181723075
+USER	validação concorrência transações - c	START	1709181723075
+USER	validação concorrência transações - c	START	1709181723076
+USER	validação concorrência transações - c	START	1709181723076
+USER	validação concorrência transações - c	START	1709181723077
+USER	validação concorrência transações - c	START	1709181723077
+USER	validação concorrência transações - c	START	1709181723081
+USER	validação concorrência transações - c	START	1709181723082
+USER	validação concorrência transações - c	START	1709181723087
+USER	validação concorrência transações - c	START	1709181723088
+REQUEST		validações	1709181723068	1709181723089	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723090
+REQUEST		validações	1709181723068	1709181723101	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723102
+REQUEST		validações	1709181723072	1709181723158	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723068	1709181723157	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723159
+USER	validação concorrência transações - c	END	1709181723159
+REQUEST		validações	1709181723068	1709181723167	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723068	1709181723167	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723168
+USER	validação concorrência transações - c	END	1709181723168
+REQUEST		validações	1709181723068	1709181723198	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723068	1709181723199	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723200
+USER	validação concorrência transações - c	END	1709181723200
+REQUEST		validações	1709181723068	1709181723200	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723201
+REQUEST		validações	1709181723080	1709181723205	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723206
+REQUEST		validações	1709181723085	1709181723207	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723208
+REQUEST		validações	1709181723073	1709181723266	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723068	1709181723267	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723267
+REQUEST		validações	1709181723075	1709181723267	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723268
+USER	validação concorrência transações - c	END	1709181723268
+REQUEST		validações	1709181723072	1709181723300	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723301
+REQUEST		validações	1709181723074	1709181723301	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723303
+REQUEST		validações	1709181723076	1709181723303	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723304
+REQUEST		validações	1709181723075	1709181723305	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723307
+REQUEST		validações	1709181723072	1709181723364	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723068	1709181723364	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723365
+USER	validação concorrência transações - c	END	1709181723366
+REQUEST		validações	1709181723087	1709181723367	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723075	1709181723367	KO	status.find.is(200), but actually found 422
+REQUEST		validações	1709181723075	1709181723367	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723368
+REQUEST		validações	1709181723068	1709181723368	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723368
+USER	validação concorrência transações - c	END	1709181723369
+USER	validação concorrência transações - c	END	1709181723369
+REQUEST		validações	1709181723080	1709181723370	KO	status.find.is(200), but actually found 422
+USER	validação concorrência transações - c	END	1709181723371
+USER	validação concorrência saldo - 0	START	1709181724068
+REQUEST		validações	1709181724067	1709181724082	KO	jmesPath(saldo.total).find.is(0), but actually found -100000
+USER	validação concorrência saldo - 0	END	1709181724086
+USER	validações	START	1709181725068
+USER	validações	START	1709181725068
+USER	validações	START	1709181725068
+USER	validações	START	1709181725068
+USER	validações	START	1709181725068
+USER	validação HTTP 404	START	1709181725069
+REQUEST		validações	1709181725068	1709181725094	OK	 
+USER	validação HTTP 404	END	1709181725095
+REQUEST		validações	1709181725079	1709181725098	KO	jmesPath(saldo.total).find.is(0), but actually found -500000
+REQUEST		validações	1709181725079	1709181725097	KO	jmesPath(saldo.total).find.is(0), but actually found -100000
+REQUEST		validações	1709181725079	1709181725097	KO	jmesPath(saldo.total).find.is(0), but actually found -10000000
+REQUEST		validações	1709181725079	1709181725096	KO	jmesPath(saldo.total).find.is(0), but actually found -80000
+REQUEST		validações	1709181725103	1709181725117	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725103	1709181725166	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725079	1709181725164	KO	jmesPath(saldo.total).find.is(0), but actually found -1000000
+REQUEST		validações	1709181725103	1709181725199	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725169	1709181725203	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725201	1709181725213	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725215	1709181725227	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1709181725103	1709181725275	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725124	1709181725275	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725169	1709181725281	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725283	1709181725314	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725277	1709181725314	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725205	1709181725367	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1709181725245	1709181725372	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725277	1709181725369	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1709181725316	1709181725370	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1709181725374	1709181725404	OK	 
+REQUEST		validações	1709181725376	1709181725405	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725316	1709181725403	KO	jmesPath(ultimas_transacoes[0].descricao).find.is(devolve), but actually found nothing
+REQUEST		validações	1709181725405	1709181725471	OK	 
+REQUEST		validações	1709181725376	1709181725471	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725407	1709181725471	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725472	1709181725506	OK	 
+REQUEST		validações	1709181725473	1709181725506	OK	 
+REQUEST		validações	1709181725407	1709181725506	OK	 
+REQUEST		validações	1709181725372	1709181725564	KO	status.find.in(200), but actually found 422
+REQUEST		validações	1709181725473	1709181725572	OK	 
+REQUEST		validações	1709181725507	1709181725601	OK	 
+REQUEST		validações	1709181725567	1709181725607	OK	 
+REQUEST		validações	1709181725603	1709181725614	OK	 
+USER	validações	END	1709181725615
+REQUEST		validações	1709181725507	1709181725663	OK	 
+REQUEST		validações	1709181725507	1709181725663	OK	 
+REQUEST		validações	1709181725608	1709181725672	OK	 
+REQUEST		validações	1709181725573	1709181725672	OK	 
+REQUEST		validações	1709181725664	1709181725705	OK	 
+REQUEST		validações	1709181725673	1709181725705	OK	 
+REQUEST		validações	1709181725664	1709181725768	OK	 
+REQUEST		validações	1709181725673	1709181725768	OK	 
+REQUEST		validações	1709181725706	1709181725802	OK	 
+REQUEST		validações	1709181725769	1709181725802	OK	 
+REQUEST		validações	1709181725803	1709181725813	OK	 
+USER	validações	END	1709181725814
+REQUEST		validações	1709181725706	1709181725863	OK	 
+REQUEST		validações	1709181725769	1709181725871	OK	 
+REQUEST		validações	1709181725803	1709181725871	OK	 
+USER	validações	END	1709181725872
+REQUEST		validações	1709181725865	1709181725876	OK	 
+USER	validações	END	1709181725877
+REQUEST		validações	1709181725872	1709181725882	OK	 
+USER	validações	END	1709181725883
+USER	extratos	START	1709181726098
+USER	débitos	START	1709181726101
+USER	créditos	START	1709181726102
+REQUEST		extratos	1709181726097	1709181726114	OK	 
+USER	extratos	END	1709181726120
+REQUEST		débitos	1709181726099	1709181726118	OK	 
+USER	débitos	END	1709181726120
+REQUEST		créditos	1709181726099	1709181726117	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181726205
+USER	extratos	START	1709181727071
+USER	créditos	START	1709181727071
+USER	débitos	START	1709181727078
+REQUEST		extratos	1709181727070	1709181727084	OK	 
+USER	extratos	END	1709181727086
+REQUEST		créditos	1709181727070	1709181727084	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181727088
+REQUEST		débitos	1709181727077	1709181727090	OK	 
+USER	débitos	END	1709181727091
+USER	débitos	START	1709181727319
+REQUEST		débitos	1709181727318	1709181727331	OK	 
+USER	débitos	END	1709181727332
+USER	créditos	START	1709181727568
+USER	débitos	START	1709181727569
+REQUEST		débitos	1709181727568	1709181727580	OK	 
+USER	débitos	END	1709181727581
+REQUEST		créditos	1709181727568	1709181727580	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181727583
+USER	débitos	START	1709181727820
+REQUEST		débitos	1709181727819	1709181727831	OK	 
+USER	débitos	END	1709181727833
+USER	débitos	START	1709181728068
+USER	extratos	START	1709181728069
+USER	créditos	START	1709181728069
+REQUEST		débitos	1709181728067	1709181728082	OK	 
+USER	débitos	END	1709181728084
+REQUEST		créditos	1709181728069	1709181728082	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181728087
+REQUEST		extratos	1709181728068	1709181728085	OK	 
+USER	extratos	END	1709181728087
+USER	débitos	START	1709181728235
+REQUEST		débitos	1709181728234	1709181728247	OK	 
+USER	débitos	END	1709181728249
+USER	créditos	START	1709181728319
+REQUEST		créditos	1709181728318	1709181728331	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181728335
+USER	débitos	START	1709181728402
+REQUEST		débitos	1709181728402	1709181728414	OK	 
+USER	débitos	END	1709181728415
+USER	débitos	START	1709181728569
+USER	créditos	START	1709181728569
+REQUEST		débitos	1709181728568	1709181728581	OK	 
+USER	débitos	END	1709181728582
+REQUEST		créditos	1709181728568	1709181728580	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181728583
+USER	débitos	START	1709181728736
+REQUEST		débitos	1709181728735	1709181728748	OK	 
+USER	débitos	END	1709181728750
+USER	créditos	START	1709181728820
+REQUEST		créditos	1709181728819	1709181728831	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181728835
+USER	débitos	START	1709181728903
+REQUEST		débitos	1709181728903	1709181728914	OK	 
+USER	débitos	END	1709181728915
+USER	extratos	START	1709181729067
+USER	débitos	START	1709181729068
+USER	créditos	START	1709181729071
+REQUEST		extratos	1709181729067	1709181729081	OK	 
+USER	extratos	END	1709181729083
+REQUEST		débitos	1709181729068	1709181729083	OK	 
+USER	débitos	END	1709181729084
+REQUEST		créditos	1709181729070	1709181729083	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181729086
+USER	débitos	START	1709181729211
+REQUEST		débitos	1709181729210	1709181729222	OK	 
+USER	débitos	END	1709181729223
+USER	créditos	START	1709181729319
+REQUEST		créditos	1709181729318	1709181729330	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181729334
+USER	débitos	START	1709181729354
+REQUEST		débitos	1709181729354	1709181729366	OK	 
+USER	débitos	END	1709181729367
+USER	débitos	START	1709181729497
+REQUEST		débitos	1709181729496	1709181729511	OK	 
+USER	débitos	END	1709181729511
+USER	créditos	START	1709181729569
+REQUEST		créditos	1709181729568	1709181729581	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181729584
+USER	débitos	START	1709181729640
+REQUEST		débitos	1709181729639	1709181729652	OK	 
+USER	débitos	END	1709181729653
+USER	débitos	START	1709181729784
+REQUEST		débitos	1709181729783	1709181729797	OK	 
+USER	débitos	END	1709181729798
+USER	créditos	START	1709181729819
+REQUEST		créditos	1709181729819	1709181729835	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181729838
+USER	débitos	START	1709181729927
+REQUEST		débitos	1709181729927	1709181729940	OK	 
+USER	débitos	END	1709181729941
+USER	débitos	START	1709181730068
+USER	extratos	START	1709181730068
+USER	créditos	START	1709181730070
+REQUEST		débitos	1709181730067	1709181730081	OK	 
+USER	débitos	END	1709181730082
+REQUEST		extratos	1709181730068	1709181730081	OK	 
+USER	extratos	END	1709181730083
+REQUEST		créditos	1709181730069	1709181730081	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181730085
+USER	débitos	START	1709181730179
+REQUEST		débitos	1709181730179	1709181730190	OK	 
+USER	débitos	END	1709181730191
+USER	créditos	START	1709181730268
+REQUEST		créditos	1709181730268	1709181730280	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181730283
+USER	débitos	START	1709181730291
+REQUEST		débitos	1709181730290	1709181730302	OK	 
+USER	débitos	END	1709181730303
+USER	débitos	START	1709181730402
+REQUEST		débitos	1709181730401	1709181730414	OK	 
+USER	débitos	END	1709181730415
+USER	créditos	START	1709181730469
+REQUEST		créditos	1709181730468	1709181730480	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181730482
+USER	débitos	START	1709181730513
+REQUEST		débitos	1709181730512	1709181730525	OK	 
+USER	débitos	END	1709181730526
+USER	débitos	START	1709181730624
+REQUEST		débitos	1709181730623	1709181730634	OK	 
+USER	débitos	END	1709181730635
+USER	créditos	START	1709181730669
+REQUEST		créditos	1709181730668	1709181730680	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181730682
+USER	débitos	START	1709181730735
+REQUEST		débitos	1709181730735	1709181730746	OK	 
+USER	débitos	END	1709181730748
+USER	débitos	START	1709181730846
+REQUEST		débitos	1709181730846	1709181730858	OK	 
+USER	débitos	END	1709181730858
+USER	créditos	START	1709181730869
+REQUEST		créditos	1709181730869	1709181730880	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181730883
+USER	débitos	START	1709181730958
+REQUEST		débitos	1709181730957	1709181730969	OK	 
+USER	débitos	END	1709181730971
+USER	débitos	START	1709181731068
+USER	extratos	START	1709181731068
+USER	créditos	START	1709181731070
+REQUEST		extratos	1709181731068	1709181731080	OK	 
+USER	extratos	END	1709181731083
+REQUEST		débitos	1709181731067	1709181731082	OK	 
+USER	débitos	END	1709181731083
+REQUEST		créditos	1709181731069	1709181731082	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731085
+USER	débitos	START	1709181731158
+REQUEST		débitos	1709181731158	1709181731169	OK	 
+USER	débitos	END	1709181731170
+USER	créditos	START	1709181731234
+REQUEST		créditos	1709181731234	1709181731245	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731248
+USER	débitos	START	1709181731249
+REQUEST		débitos	1709181731249	1709181731260	OK	 
+USER	débitos	END	1709181731261
+USER	débitos	START	1709181731340
+REQUEST		débitos	1709181731340	1709181731351	OK	 
+USER	débitos	END	1709181731352
+USER	créditos	START	1709181731401
+REQUEST		créditos	1709181731401	1709181731412	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731414
+USER	débitos	START	1709181731432
+REQUEST		débitos	1709181731431	1709181731441	OK	 
+USER	débitos	END	1709181731442
+USER	débitos	START	1709181731523
+REQUEST		débitos	1709181731522	1709181731533	OK	 
+USER	débitos	END	1709181731534
+USER	extratos	START	1709181731568
+USER	créditos	START	1709181731568
+REQUEST		extratos	1709181731567	1709181731579	OK	 
+REQUEST		créditos	1709181731568	1709181731578	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731581
+USER	extratos	END	1709181731581
+USER	débitos	START	1709181731613
+REQUEST		débitos	1709181731613	1709181731626	OK	 
+USER	débitos	END	1709181731627
+USER	débitos	START	1709181731705
+REQUEST		débitos	1709181731704	1709181731716	OK	 
+USER	débitos	END	1709181731717
+USER	créditos	START	1709181731735
+REQUEST		créditos	1709181731734	1709181731746	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731748
+USER	débitos	START	1709181731796
+REQUEST		débitos	1709181731796	1709181731806	OK	 
+USER	débitos	END	1709181731807
+USER	débitos	START	1709181731887
+REQUEST		débitos	1709181731887	1709181731897	OK	 
+USER	débitos	END	1709181731898
+USER	créditos	START	1709181731902
+REQUEST		créditos	1709181731901	1709181731912	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181731915
+USER	débitos	START	1709181731978
+REQUEST		débitos	1709181731977	1709181731988	OK	 
+USER	débitos	END	1709181731989
+USER	débitos	START	1709181732068
+USER	extratos	START	1709181732068
+USER	créditos	START	1709181732069
+REQUEST		débitos	1709181732067	1709181732078	OK	 
+USER	débitos	END	1709181732079
+REQUEST		extratos	1709181732068	1709181732080	OK	 
+USER	extratos	END	1709181732082
+REQUEST		créditos	1709181732068	1709181732080	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732083
+USER	débitos	START	1709181732144
+REQUEST		débitos	1709181732144	1709181732156	OK	 
+USER	débitos	END	1709181732157
+USER	créditos	START	1709181732210
+USER	débitos	START	1709181732221
+REQUEST		créditos	1709181732209	1709181732220	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732222
+REQUEST		débitos	1709181732221	1709181732233	OK	 
+USER	débitos	END	1709181732234
+USER	débitos	START	1709181732299
+REQUEST		débitos	1709181732298	1709181732309	OK	 
+USER	débitos	END	1709181732310
+USER	créditos	START	1709181732353
+REQUEST		créditos	1709181732352	1709181732363	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732366
+USER	débitos	START	1709181732376
+REQUEST		débitos	1709181732375	1709181732387	OK	 
+USER	débitos	END	1709181732388
+USER	débitos	START	1709181732452
+REQUEST		débitos	1709181732452	1709181732462	OK	 
+USER	débitos	END	1709181732463
+USER	créditos	START	1709181732496
+REQUEST		créditos	1709181732495	1709181732506	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732508
+USER	débitos	START	1709181732530
+REQUEST		débitos	1709181732529	1709181732541	OK	 
+USER	débitos	END	1709181732542
+USER	débitos	START	1709181732607
+REQUEST		débitos	1709181732606	1709181732617	OK	 
+USER	débitos	END	1709181732618
+USER	créditos	START	1709181732639
+REQUEST		créditos	1709181732639	1709181732649	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732651
+USER	débitos	START	1709181732683
+REQUEST		débitos	1709181732683	1709181732694	OK	 
+USER	débitos	END	1709181732695
+USER	débitos	START	1709181732761
+REQUEST		débitos	1709181732760	1709181732771	OK	 
+USER	débitos	END	1709181732772
+USER	créditos	START	1709181732782
+REQUEST		créditos	1709181732782	1709181732793	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732795
+USER	débitos	START	1709181732838
+REQUEST		débitos	1709181732837	1709181732848	OK	 
+USER	débitos	END	1709181732849
+USER	débitos	START	1709181732915
+REQUEST		débitos	1709181732914	1709181732925	OK	 
+USER	débitos	END	1709181732926
+USER	créditos	START	1709181732926
+REQUEST		créditos	1709181732925	1709181732936	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181732938
+USER	débitos	START	1709181732992
+REQUEST		débitos	1709181732991	1709181733002	OK	 
+USER	débitos	END	1709181733003
+USER	extratos	START	1709181733068
+USER	débitos	START	1709181733068
+USER	créditos	START	1709181733069
+REQUEST		débitos	1709181733067	1709181733079	OK	 
+USER	débitos	END	1709181733080
+REQUEST		extratos	1709181733067	1709181733079	OK	 
+USER	extratos	END	1709181733081
+REQUEST		créditos	1709181733068	1709181733078	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733081
+USER	débitos	START	1709181733134
+REQUEST		débitos	1709181733133	1709181733144	OK	 
+USER	débitos	END	1709181733145
+USER	créditos	START	1709181733192
+USER	débitos	START	1709181733201
+REQUEST		créditos	1709181733192	1709181733202	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733205
+REQUEST		débitos	1709181733200	1709181733211	OK	 
+USER	débitos	END	1709181733212
+USER	débitos	START	1709181733268
+REQUEST		débitos	1709181733267	1709181733277	OK	 
+USER	débitos	END	1709181733278
+USER	créditos	START	1709181733317
+REQUEST		créditos	1709181733317	1709181733328	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733330
+USER	débitos	START	1709181733334
+REQUEST		débitos	1709181733333	1709181733345	OK	 
+USER	débitos	END	1709181733346
+USER	débitos	START	1709181733401
+REQUEST		débitos	1709181733400	1709181733411	OK	 
+USER	débitos	END	1709181733412
+USER	créditos	START	1709181733443
+REQUEST		créditos	1709181733442	1709181733453	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733455
+USER	débitos	START	1709181733468
+REQUEST		débitos	1709181733467	1709181733478	OK	 
+USER	débitos	END	1709181733479
+USER	débitos	START	1709181733535
+REQUEST		débitos	1709181733534	1709181733545	OK	 
+USER	débitos	END	1709181733546
+USER	extratos	START	1709181733567
+USER	créditos	START	1709181733568
+REQUEST		extratos	1709181733567	1709181733579	OK	 
+REQUEST		créditos	1709181733567	1709181733579	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	extratos	END	1709181733581
+USER	créditos	END	1709181733581
+USER	débitos	START	1709181733602
+REQUEST		débitos	1709181733601	1709181733612	OK	 
+USER	débitos	END	1709181733613
+USER	débitos	START	1709181733669
+REQUEST		débitos	1709181733668	1709181733678	OK	 
+USER	débitos	END	1709181733679
+USER	créditos	START	1709181733693
+REQUEST		créditos	1709181733693	1709181733703	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733705
+USER	débitos	START	1709181733734
+REQUEST		débitos	1709181733734	1709181733747	OK	 
+USER	débitos	END	1709181733748
+USER	débitos	START	1709181733801
+REQUEST		débitos	1709181733801	1709181733812	OK	 
+USER	débitos	END	1709181733813
+USER	créditos	START	1709181733818
+REQUEST		créditos	1709181733818	1709181733828	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733831
+USER	débitos	START	1709181733869
+REQUEST		débitos	1709181733868	1709181733878	OK	 
+USER	débitos	END	1709181733879
+USER	débitos	START	1709181733935
+USER	créditos	START	1709181733943
+REQUEST		débitos	1709181733934	1709181733946	OK	 
+USER	débitos	END	1709181733947
+REQUEST		créditos	1709181733943	1709181733954	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181733956
+USER	débitos	START	1709181734002
+REQUEST		débitos	1709181734002	1709181734013	OK	 
+USER	débitos	END	1709181734014
+USER	extratos	START	1709181734068
+USER	débitos	START	1709181734068
+USER	créditos	START	1709181734069
+REQUEST		débitos	1709181734067	1709181734079	OK	 
+REQUEST		extratos	1709181734067	1709181734078	OK	 
+USER	débitos	END	1709181734080
+USER	extratos	END	1709181734080
+REQUEST		créditos	1709181734068	1709181734079	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734081
+USER	débitos	START	1709181734130
+REQUEST		débitos	1709181734129	1709181734140	OK	 
+USER	débitos	END	1709181734141
+USER	créditos	START	1709181734193
+USER	débitos	START	1709181734193
+REQUEST		débitos	1709181734192	1709181734204	OK	 
+USER	débitos	END	1709181734205
+REQUEST		créditos	1709181734192	1709181734205	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734208
+USER	débitos	START	1709181734255
+REQUEST		débitos	1709181734255	1709181734266	OK	 
+USER	débitos	END	1709181734267
+USER	créditos	START	1709181734318
+USER	débitos	START	1709181734318
+REQUEST		débitos	1709181734317	1709181734328	OK	 
+USER	débitos	END	1709181734329
+REQUEST		créditos	1709181734317	1709181734328	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734330
+USER	débitos	START	1709181734380
+REQUEST		débitos	1709181734380	1709181734390	OK	 
+USER	débitos	END	1709181734391
+USER	créditos	START	1709181734443
+USER	débitos	START	1709181734443
+REQUEST		débitos	1709181734443	1709181734454	OK	 
+USER	débitos	END	1709181734455
+REQUEST		créditos	1709181734443	1709181734454	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734456
+USER	débitos	START	1709181734505
+REQUEST		débitos	1709181734505	1709181734515	OK	 
+USER	débitos	END	1709181734516
+USER	extratos	START	1709181734567
+USER	créditos	START	1709181734568
+USER	débitos	START	1709181734568
+REQUEST		débitos	1709181734568	1709181734577	OK	 
+USER	débitos	END	1709181734578
+REQUEST		extratos	1709181734567	1709181734578	OK	 
+USER	extratos	END	1709181734579
+REQUEST		créditos	1709181734567	1709181734578	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734580
+USER	débitos	START	1709181734631
+REQUEST		débitos	1709181734630	1709181734641	OK	 
+USER	débitos	END	1709181734642
+USER	créditos	START	1709181734693
+USER	débitos	START	1709181734694
+REQUEST		débitos	1709181734693	1709181734704	OK	 
+USER	débitos	END	1709181734705
+REQUEST		créditos	1709181734692	1709181734703	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734706
+USER	débitos	START	1709181734756
+REQUEST		débitos	1709181734755	1709181734765	OK	 
+USER	débitos	END	1709181734766
+USER	créditos	START	1709181734818
+USER	débitos	START	1709181734818
+REQUEST		débitos	1709181734818	1709181734829	OK	 
+USER	débitos	END	1709181734830
+REQUEST		créditos	1709181734818	1709181734829	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734831
+USER	débitos	START	1709181734881
+REQUEST		débitos	1709181734880	1709181734891	OK	 
+USER	débitos	END	1709181734892
+USER	créditos	START	1709181734944
+USER	débitos	START	1709181734944
+REQUEST		débitos	1709181734944	1709181734954	OK	 
+USER	débitos	END	1709181734955
+REQUEST		créditos	1709181734943	1709181734954	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181734956
+USER	débitos	START	1709181735007
+REQUEST		débitos	1709181735006	1709181735020	OK	 
+USER	débitos	END	1709181735021
+USER	débitos	START	1709181735068
+USER	extratos	START	1709181735068
+USER	créditos	START	1709181735069
+REQUEST		extratos	1709181735067	1709181735079	OK	 
+USER	extratos	END	1709181735080
+REQUEST		créditos	1709181735068	1709181735079	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+REQUEST		débitos	1709181735067	1709181735081	OK	 
+USER	créditos	END	1709181735082
+USER	débitos	END	1709181735082
+USER	débitos	START	1709181735120
+REQUEST		débitos	1709181735119	1709181735130	OK	 
+USER	débitos	END	1709181735131
+USER	créditos	START	1709181735167
+USER	débitos	START	1709181735173
+REQUEST		créditos	1709181735167	1709181735177	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735180
+REQUEST		débitos	1709181735172	1709181735182	OK	 
+USER	débitos	END	1709181735183
+USER	débitos	START	1709181735225
+REQUEST		débitos	1709181735224	1709181735235	OK	 
+USER	débitos	END	1709181735236
+USER	créditos	START	1709181735267
+USER	débitos	START	1709181735278
+REQUEST		créditos	1709181735267	1709181735277	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735279
+REQUEST		débitos	1709181735277	1709181735287	OK	 
+USER	débitos	END	1709181735288
+USER	débitos	START	1709181735332
+REQUEST		débitos	1709181735330	1709181735342	OK	 
+USER	débitos	END	1709181735343
+USER	créditos	START	1709181735368
+REQUEST		créditos	1709181735367	1709181735378	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735380
+USER	débitos	START	1709181735383
+REQUEST		débitos	1709181735382	1709181735392	OK	 
+USER	débitos	END	1709181735393
+USER	débitos	START	1709181735436
+REQUEST		débitos	1709181735435	1709181735446	OK	 
+USER	débitos	END	1709181735447
+USER	créditos	START	1709181735468
+REQUEST		créditos	1709181735467	1709181735478	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735481
+USER	débitos	START	1709181735489
+REQUEST		débitos	1709181735489	1709181735499	OK	 
+USER	débitos	END	1709181735500
+USER	débitos	START	1709181735541
+REQUEST		débitos	1709181735541	1709181735551	OK	 
+USER	débitos	END	1709181735552
+USER	créditos	START	1709181735568
+REQUEST		créditos	1709181735568	1709181735578	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735580
+USER	débitos	START	1709181735594
+REQUEST		débitos	1709181735594	1709181735604	OK	 
+USER	débitos	END	1709181735605
+USER	débitos	START	1709181735646
+REQUEST		débitos	1709181735646	1709181735658	OK	 
+USER	débitos	END	1709181735659
+USER	créditos	START	1709181735668
+REQUEST		créditos	1709181735668	1709181735678	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735680
+USER	débitos	START	1709181735699
+REQUEST		débitos	1709181735699	1709181735710	OK	 
+USER	débitos	END	1709181735711
+USER	débitos	START	1709181735752
+REQUEST		débitos	1709181735752	1709181735762	OK	 
+USER	débitos	END	1709181735763
+USER	créditos	START	1709181735768
+REQUEST		créditos	1709181735768	1709181735778	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735780
+USER	débitos	START	1709181735805
+REQUEST		débitos	1709181735804	1709181735815	OK	 
+USER	débitos	END	1709181735816
+USER	débitos	START	1709181735857
+REQUEST		débitos	1709181735856	1709181735867	OK	 
+USER	débitos	END	1709181735868
+USER	créditos	START	1709181735868
+REQUEST		créditos	1709181735868	1709181735878	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735880
+USER	débitos	START	1709181735911
+REQUEST		débitos	1709181735910	1709181735921	OK	 
+USER	débitos	END	1709181735921
+USER	débitos	START	1709181735963
+USER	créditos	START	1709181735969
+REQUEST		débitos	1709181735963	1709181735974	OK	 
+USER	débitos	END	1709181735975
+REQUEST		créditos	1709181735969	1709181735980	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181735983
+USER	débitos	START	1709181736015
+REQUEST		débitos	1709181736015	1709181736025	OK	 
+USER	débitos	END	1709181736025
+USER	débitos	START	1709181736068
+USER	extratos	START	1709181736068
+USER	créditos	START	1709181736070
+REQUEST		débitos	1709181736068	1709181736080	OK	 
+REQUEST		extratos	1709181736068	1709181736080	OK	 
+USER	débitos	END	1709181736081
+USER	extratos	END	1709181736081
+REQUEST		créditos	1709181736069	1709181736080	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736083
+USER	débitos	START	1709181736117
+REQUEST		débitos	1709181736117	1709181736127	OK	 
+USER	débitos	END	1709181736128
+USER	débitos	START	1709181736167
+USER	créditos	START	1709181736168
+REQUEST		débitos	1709181736167	1709181736178	OK	 
+USER	débitos	END	1709181736178
+REQUEST		créditos	1709181736167	1709181736178	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736180
+USER	débitos	START	1709181736217
+REQUEST		débitos	1709181736217	1709181736228	OK	 
+USER	débitos	END	1709181736229
+USER	débitos	START	1709181736267
+USER	créditos	START	1709181736268
+REQUEST		débitos	1709181736267	1709181736278	OK	 
+USER	débitos	END	1709181736279
+REQUEST		créditos	1709181736267	1709181736278	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736280
+USER	débitos	START	1709181736317
+REQUEST		débitos	1709181736317	1709181736327	OK	 
+USER	débitos	END	1709181736328
+USER	débitos	START	1709181736367
+USER	créditos	START	1709181736368
+REQUEST		débitos	1709181736367	1709181736378	OK	 
+USER	débitos	END	1709181736379
+REQUEST		créditos	1709181736367	1709181736379	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736381
+USER	débitos	START	1709181736418
+REQUEST		débitos	1709181736417	1709181736428	OK	 
+USER	débitos	END	1709181736429
+USER	débitos	START	1709181736467
+USER	créditos	START	1709181736469
+REQUEST		débitos	1709181736467	1709181736478	OK	 
+USER	débitos	END	1709181736479
+REQUEST		créditos	1709181736468	1709181736479	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736482
+USER	débitos	START	1709181736518
+REQUEST		débitos	1709181736517	1709181736527	OK	 
+USER	débitos	END	1709181736528
+USER	extratos	START	1709181736567
+USER	créditos	START	1709181736568
+USER	débitos	START	1709181736568
+REQUEST		extratos	1709181736567	1709181736578	OK	 
+USER	extratos	END	1709181736580
+REQUEST		créditos	1709181736568	1709181736578	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736581
+REQUEST		débitos	1709181736567	1709181736581	OK	 
+USER	débitos	END	1709181736581
+USER	débitos	START	1709181736618
+REQUEST		débitos	1709181736617	1709181736628	OK	 
+USER	débitos	END	1709181736628
+USER	débitos	START	1709181736668
+USER	créditos	START	1709181736668
+REQUEST		débitos	1709181736667	1709181736677	OK	 
+USER	débitos	END	1709181736678
+REQUEST		créditos	1709181736668	1709181736677	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736680
+USER	débitos	START	1709181736718
+REQUEST		débitos	1709181736717	1709181736728	OK	 
+USER	débitos	END	1709181736728
+USER	débitos	START	1709181736768
+USER	créditos	START	1709181736769
+REQUEST		débitos	1709181736768	1709181736777	OK	 
+USER	débitos	END	1709181736778
+REQUEST		créditos	1709181736768	1709181736778	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736780
+USER	débitos	START	1709181736818
+REQUEST		débitos	1709181736818	1709181736827	OK	 
+USER	débitos	END	1709181736828
+USER	débitos	START	1709181736868
+USER	créditos	START	1709181736868
+REQUEST		débitos	1709181736868	1709181736879	OK	 
+USER	débitos	END	1709181736879
+REQUEST		créditos	1709181736868	1709181736878	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736881
+USER	débitos	START	1709181736918
+REQUEST		débitos	1709181736918	1709181736928	OK	 
+USER	débitos	END	1709181736929
+USER	créditos	START	1709181736969
+USER	débitos	START	1709181736969
+REQUEST		débitos	1709181736968	1709181736978	OK	 
+USER	débitos	END	1709181736979
+REQUEST		créditos	1709181736968	1709181736978	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181736980
+USER	débitos	START	1709181737019
+REQUEST		débitos	1709181737018	1709181737029	OK	 
+USER	débitos	END	1709181737029
+USER	extratos	START	1709181737068
+USER	débitos	START	1709181737069
+USER	créditos	START	1709181737069
+REQUEST		extratos	1709181737067	1709181737078	OK	 
+USER	extratos	END	1709181737079
+REQUEST		débitos	1709181737068	1709181737079	OK	 
+USER	débitos	END	1709181737080
+REQUEST		créditos	1709181737068	1709181737078	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737081
+USER	débitos	START	1709181737113
+REQUEST		débitos	1709181737112	1709181737122	OK	 
+USER	débitos	END	1709181737123
+USER	créditos	START	1709181737151
+USER	débitos	START	1709181737158
+REQUEST		créditos	1709181737150	1709181737160	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737163
+REQUEST		débitos	1709181737157	1709181737167	OK	 
+USER	débitos	END	1709181737168
+USER	débitos	START	1709181737204
+REQUEST		débitos	1709181737203	1709181737213	OK	 
+USER	débitos	END	1709181737214
+USER	créditos	START	1709181737234
+REQUEST		créditos	1709181737233	1709181737243	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737245
+USER	débitos	START	1709181737249
+REQUEST		débitos	1709181737248	1709181737259	OK	 
+USER	débitos	END	1709181737260
+USER	débitos	START	1709181737295
+REQUEST		débitos	1709181737294	1709181737304	OK	 
+USER	débitos	END	1709181737305
+USER	créditos	START	1709181737317
+REQUEST		créditos	1709181737317	1709181737326	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737328
+USER	débitos	START	1709181737340
+REQUEST		débitos	1709181737339	1709181737350	OK	 
+USER	débitos	END	1709181737351
+USER	débitos	START	1709181737386
+REQUEST		débitos	1709181737385	1709181737395	OK	 
+USER	débitos	END	1709181737396
+USER	créditos	START	1709181737401
+REQUEST		créditos	1709181737400	1709181737410	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737412
+USER	débitos	START	1709181737431
+REQUEST		débitos	1709181737431	1709181737440	OK	 
+USER	débitos	END	1709181737441
+USER	débitos	START	1709181737477
+USER	créditos	START	1709181737484
+REQUEST		débitos	1709181737477	1709181737487	OK	 
+USER	débitos	END	1709181737488
+REQUEST		créditos	1709181737483	1709181737493	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737496
+USER	débitos	START	1709181737522
+REQUEST		débitos	1709181737522	1709181737531	OK	 
+USER	débitos	END	1709181737532
+USER	créditos	START	1709181737568
+USER	extratos	START	1709181737568
+USER	débitos	START	1709181737568
+REQUEST		débitos	1709181737567	1709181737577	OK	 
+USER	débitos	END	1709181737578
+REQUEST		extratos	1709181737567	1709181737577	OK	 
+USER	extratos	END	1709181737579
+REQUEST		créditos	1709181737567	1709181737578	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737581
+USER	débitos	START	1709181737613
+REQUEST		débitos	1709181737613	1709181737622	OK	 
+USER	débitos	END	1709181737623
+USER	créditos	START	1709181737651
+USER	débitos	START	1709181737658
+REQUEST		créditos	1709181737650	1709181737660	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737662
+REQUEST		débitos	1709181737658	1709181737669	OK	 
+USER	débitos	END	1709181737669
+USER	débitos	START	1709181737705
+REQUEST		débitos	1709181737704	1709181737714	OK	 
+USER	débitos	END	1709181737715
+USER	créditos	START	1709181737734
+REQUEST		créditos	1709181737733	1709181737745	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737747
+USER	débitos	START	1709181737749
+REQUEST		débitos	1709181737749	1709181737758	OK	 
+USER	débitos	END	1709181737759
+USER	débitos	START	1709181737796
+REQUEST		débitos	1709181737795	1709181737804	OK	 
+USER	débitos	END	1709181737805
+USER	créditos	START	1709181737818
+REQUEST		créditos	1709181737817	1709181737827	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737829
+USER	débitos	START	1709181737841
+REQUEST		débitos	1709181737840	1709181737851	OK	 
+USER	débitos	END	1709181737852
+USER	débitos	START	1709181737887
+REQUEST		débitos	1709181737886	1709181737898	OK	 
+USER	débitos	END	1709181737898
+USER	créditos	START	1709181737901
+REQUEST		créditos	1709181737900	1709181737910	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737912
+USER	débitos	START	1709181737931
+REQUEST		débitos	1709181737931	1709181737940	OK	 
+USER	débitos	END	1709181737941
+USER	débitos	START	1709181737977
+USER	créditos	START	1709181737984
+REQUEST		débitos	1709181737977	1709181737986	OK	 
+USER	débitos	END	1709181737987
+REQUEST		créditos	1709181737984	1709181737993	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181737995
+USER	débitos	START	1709181738023
+REQUEST		débitos	1709181738023	1709181738033	OK	 
+USER	débitos	END	1709181738033
+USER	extratos	START	1709181738068
+USER	débitos	START	1709181738068
+USER	créditos	START	1709181738068
+REQUEST		extratos	1709181738067	1709181738077	OK	 
+USER	extratos	END	1709181738078
+REQUEST		débitos	1709181738067	1709181738078	OK	 
+USER	débitos	END	1709181738079
+REQUEST		créditos	1709181738068	1709181738078	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738081
+USER	débitos	START	1709181738108
+REQUEST		débitos	1709181738108	1709181738118	OK	 
+USER	débitos	END	1709181738119
+USER	créditos	START	1709181738150
+USER	débitos	START	1709181738150
+REQUEST		débitos	1709181738150	1709181738160	OK	 
+USER	débitos	END	1709181738161
+REQUEST		créditos	1709181738150	1709181738161	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738163
+USER	débitos	START	1709181738192
+REQUEST		débitos	1709181738192	1709181738202	OK	 
+USER	débitos	END	1709181738203
+USER	créditos	START	1709181738233
+USER	débitos	START	1709181738233
+REQUEST		débitos	1709181738233	1709181738243	OK	 
+USER	débitos	END	1709181738244
+REQUEST		créditos	1709181738233	1709181738244	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738246
+USER	débitos	START	1709181738276
+REQUEST		débitos	1709181738275	1709181738284	OK	 
+USER	débitos	END	1709181738285
+USER	créditos	START	1709181738317
+USER	débitos	START	1709181738318
+REQUEST		débitos	1709181738317	1709181738327	OK	 
+USER	débitos	END	1709181738328
+REQUEST		créditos	1709181738317	1709181738333	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738336
+USER	débitos	START	1709181738359
+REQUEST		débitos	1709181738358	1709181738368	OK	 
+USER	débitos	END	1709181738369
+USER	créditos	START	1709181738400
+USER	débitos	START	1709181738401
+REQUEST		débitos	1709181738400	1709181738409	OK	 
+USER	débitos	END	1709181738410
+REQUEST		créditos	1709181738400	1709181738419	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738422
+USER	débitos	START	1709181738443
+REQUEST		débitos	1709181738442	1709181738451	OK	 
+USER	débitos	END	1709181738452
+USER	créditos	START	1709181738483
+USER	débitos	START	1709181738484
+REQUEST		débitos	1709181738483	1709181738493	OK	 
+USER	débitos	END	1709181738494
+REQUEST		créditos	1709181738483	1709181738493	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738495
+USER	débitos	START	1709181738526
+REQUEST		débitos	1709181738525	1709181738536	OK	 
+USER	débitos	END	1709181738537
+USER	créditos	START	1709181738567
+USER	extratos	START	1709181738567
+USER	débitos	START	1709181738568
+REQUEST		débitos	1709181738568	1709181738578	OK	 
+USER	débitos	END	1709181738578
+REQUEST		créditos	1709181738567	1709181738577	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+REQUEST		extratos	1709181738567	1709181738579	OK	 
+USER	extratos	END	1709181738580
+USER	créditos	END	1709181738580
+USER	débitos	START	1709181738609
+REQUEST		débitos	1709181738608	1709181738619	OK	 
+USER	débitos	END	1709181738619
+USER	créditos	START	1709181738650
+USER	débitos	START	1709181738651
+REQUEST		débitos	1709181738650	1709181738660	OK	 
+USER	débitos	END	1709181738661
+REQUEST		créditos	1709181738650	1709181738660	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738662
+USER	débitos	START	1709181738693
+REQUEST		débitos	1709181738693	1709181738703	OK	 
+USER	débitos	END	1709181738704
+USER	créditos	START	1709181738734
+USER	débitos	START	1709181738734
+REQUEST		débitos	1709181738733	1709181738744	OK	 
+USER	débitos	END	1709181738745
+REQUEST		créditos	1709181738733	1709181738743	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738746
+USER	débitos	START	1709181738776
+REQUEST		débitos	1709181738776	1709181738786	OK	 
+USER	débitos	END	1709181738786
+USER	créditos	START	1709181738818
+USER	débitos	START	1709181738818
+REQUEST		débitos	1709181738818	1709181738829	OK	 
+USER	débitos	END	1709181738830
+REQUEST		créditos	1709181738817	1709181738829	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738831
+USER	débitos	START	1709181738859
+REQUEST		débitos	1709181738859	1709181738868	OK	 
+USER	débitos	END	1709181738869
+USER	créditos	START	1709181738901
+USER	débitos	START	1709181738901
+REQUEST		débitos	1709181738901	1709181738911	OK	 
+USER	débitos	END	1709181738911
+REQUEST		créditos	1709181738900	1709181738910	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738913
+USER	débitos	START	1709181738943
+REQUEST		débitos	1709181738943	1709181738952	OK	 
+USER	débitos	END	1709181738953
+USER	créditos	START	1709181738984
+USER	débitos	START	1709181738985
+REQUEST		débitos	1709181738984	1709181738993	OK	 
+USER	débitos	END	1709181738994
+REQUEST		créditos	1709181738983	1709181738993	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181738996
+USER	débitos	START	1709181739027
+REQUEST		débitos	1709181739026	1709181739037	OK	 
+USER	débitos	END	1709181739037
+USER	extratos	START	1709181739068
+USER	créditos	START	1709181739068
+USER	débitos	START	1709181739068
+REQUEST		débitos	1709181739067	1709181739077	OK	 
+USER	débitos	END	1709181739078
+REQUEST		extratos	1709181739067	1709181739077	OK	 
+USER	extratos	END	1709181739079
+REQUEST		créditos	1709181739067	1709181739077	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739080
+USER	débitos	START	1709181739107
+REQUEST		débitos	1709181739107	1709181739118	OK	 
+USER	débitos	END	1709181739119
+USER	créditos	START	1709181739139
+USER	débitos	START	1709181739147
+REQUEST		créditos	1709181739139	1709181739148	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739150
+REQUEST		débitos	1709181739147	1709181739158	OK	 
+USER	débitos	END	1709181739158
+USER	débitos	START	1709181739187
+REQUEST		débitos	1709181739187	1709181739198	OK	 
+USER	débitos	END	1709181739199
+USER	créditos	START	1709181739210
+REQUEST		créditos	1709181739210	1709181739221	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739223
+USER	débitos	START	1709181739227
+REQUEST		débitos	1709181739227	1709181739237	OK	 
+USER	débitos	END	1709181739238
+USER	débitos	START	1709181739267
+REQUEST		débitos	1709181739267	1709181739276	OK	 
+USER	débitos	END	1709181739277
+USER	créditos	START	1709181739282
+REQUEST		créditos	1709181739281	1709181739291	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739293
+USER	débitos	START	1709181739307
+REQUEST		débitos	1709181739307	1709181739318	OK	 
+USER	débitos	END	1709181739319
+USER	débitos	START	1709181739347
+USER	créditos	START	1709181739353
+REQUEST		débitos	1709181739347	1709181739358	OK	 
+USER	débitos	END	1709181739358
+REQUEST		créditos	1709181739352	1709181739363	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739365
+USER	débitos	START	1709181739387
+REQUEST		débitos	1709181739387	1709181739398	OK	 
+USER	débitos	END	1709181739399
+USER	créditos	START	1709181739425
+USER	débitos	START	1709181739427
+REQUEST		créditos	1709181739424	1709181739436	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739439
+REQUEST		débitos	1709181739427	1709181739465	OK	 
+USER	débitos	END	1709181739466
+USER	débitos	START	1709181739467
+REQUEST		débitos	1709181739467	1709181739477	OK	 
+USER	débitos	END	1709181739478
+USER	créditos	START	1709181739496
+REQUEST		créditos	1709181739495	1709181739506	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	débitos	START	1709181739508
+USER	créditos	END	1709181739508
+REQUEST		débitos	1709181739507	1709181739516	OK	 
+USER	débitos	END	1709181739517
+USER	débitos	START	1709181739547
+REQUEST		débitos	1709181739547	1709181739558	OK	 
+USER	débitos	END	1709181739559
+USER	extratos	START	1709181739567
+USER	créditos	START	1709181739568
+REQUEST		extratos	1709181739567	1709181739576	OK	 
+USER	extratos	END	1709181739577
+REQUEST		créditos	1709181739567	1709181739577	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739580
+USER	débitos	START	1709181739587
+REQUEST		débitos	1709181739587	1709181739596	OK	 
+USER	débitos	END	1709181739597
+USER	débitos	START	1709181739628
+REQUEST		débitos	1709181739627	1709181739637	OK	 
+USER	débitos	END	1709181739637
+USER	créditos	START	1709181739639
+REQUEST		créditos	1709181739638	1709181739647	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739649
+USER	débitos	START	1709181739668
+REQUEST		débitos	1709181739667	1709181739677	OK	 
+USER	débitos	END	1709181739678
+USER	débitos	START	1709181739707
+USER	créditos	START	1709181739710
+REQUEST		débitos	1709181739707	1709181739716	OK	 
+USER	débitos	END	1709181739717
+REQUEST		créditos	1709181739710	1709181739719	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739721
+USER	débitos	START	1709181739748
+REQUEST		débitos	1709181739747	1709181739756	OK	 
+USER	débitos	END	1709181739757
+USER	créditos	START	1709181739782
+USER	débitos	START	1709181739788
+REQUEST		créditos	1709181739782	1709181739791	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739793
+REQUEST		débitos	1709181739787	1709181739797	OK	 
+USER	débitos	END	1709181739797
+USER	débitos	START	1709181739828
+REQUEST		débitos	1709181739827	1709181739837	OK	 
+USER	débitos	END	1709181739837
+USER	créditos	START	1709181739853
+REQUEST		créditos	1709181739853	1709181739862	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739864
+USER	débitos	START	1709181739868
+REQUEST		débitos	1709181739868	1709181739876	OK	 
+USER	débitos	END	1709181739877
+USER	débitos	START	1709181739908
+REQUEST		débitos	1709181739908	1709181739917	OK	 
+USER	débitos	END	1709181739918
+USER	créditos	START	1709181739925
+REQUEST		créditos	1709181739925	1709181739934	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181739936
+USER	débitos	START	1709181739948
+REQUEST		débitos	1709181739948	1709181739957	OK	 
+USER	débitos	END	1709181739958
+USER	débitos	START	1709181739988
+USER	créditos	START	1709181739996
+REQUEST		débitos	1709181739988	1709181739998	OK	 
+USER	débitos	END	1709181739999
+REQUEST		créditos	1709181739996	1709181740006	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740008
+USER	débitos	START	1709181740028
+REQUEST		débitos	1709181740027	1709181740038	OK	 
+USER	débitos	END	1709181740039
+USER	extratos	START	1709181740067
+USER	créditos	START	1709181740069
+USER	débitos	START	1709181740069
+REQUEST		extratos	1709181740067	1709181740076	OK	 
+REQUEST		débitos	1709181740068	1709181740077	OK	 
+USER	extratos	END	1709181740078
+USER	débitos	END	1709181740078
+REQUEST		créditos	1709181740068	1709181740078	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740080
+USER	débitos	START	1709181740103
+REQUEST		débitos	1709181740102	1709181740112	OK	 
+USER	débitos	END	1709181740113
+USER	débitos	START	1709181740139
+USER	créditos	START	1709181740139
+REQUEST		débitos	1709181740139	1709181740148	OK	 
+USER	débitos	END	1709181740149
+REQUEST		créditos	1709181740139	1709181740148	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740150
+USER	débitos	START	1709181740175
+REQUEST		débitos	1709181740175	1709181740184	OK	 
+USER	débitos	END	1709181740185
+USER	créditos	START	1709181740210
+USER	débitos	START	1709181740210
+REQUEST		débitos	1709181740210	1709181740219	OK	 
+USER	débitos	END	1709181740220
+REQUEST		créditos	1709181740210	1709181740219	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740221
+USER	débitos	START	1709181740247
+REQUEST		débitos	1709181740246	1709181740256	OK	 
+USER	débitos	END	1709181740257
+USER	créditos	START	1709181740282
+USER	débitos	START	1709181740284
+REQUEST		créditos	1709181740281	1709181740291	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740294
+REQUEST		débitos	1709181740283	1709181740294	OK	 
+USER	débitos	END	1709181740295
+USER	débitos	START	1709181740319
+REQUEST		débitos	1709181740318	1709181740327	OK	 
+USER	débitos	END	1709181740328
+USER	créditos	START	1709181740353
+USER	débitos	START	1709181740353
+REQUEST		débitos	1709181740353	1709181740362	OK	 
+USER	débitos	END	1709181740363
+REQUEST		créditos	1709181740352	1709181740361	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740363
+USER	débitos	START	1709181740389
+REQUEST		débitos	1709181740389	1709181740398	OK	 
+USER	débitos	END	1709181740399
+USER	créditos	START	1709181740425
+USER	débitos	START	1709181740425
+REQUEST		débitos	1709181740424	1709181740434	OK	 
+USER	débitos	END	1709181740434
+REQUEST		créditos	1709181740424	1709181740434	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740436
+USER	débitos	START	1709181740461
+REQUEST		débitos	1709181740460	1709181740469	OK	 
+USER	débitos	END	1709181740470
+USER	créditos	START	1709181740496
+USER	débitos	START	1709181740496
+REQUEST		débitos	1709181740496	1709181740505	OK	 
+USER	débitos	END	1709181740506
+REQUEST		créditos	1709181740495	1709181740505	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740507
+USER	débitos	START	1709181740532
+REQUEST		débitos	1709181740532	1709181740541	OK	 
+USER	débitos	END	1709181740542
+USER	extratos	START	1709181740567
+USER	créditos	START	1709181740568
+USER	débitos	START	1709181740568
+REQUEST		extratos	1709181740567	1709181740575	OK	 
+USER	extratos	END	1709181740577
+REQUEST		débitos	1709181740568	1709181740577	OK	 
+USER	débitos	END	1709181740578
+REQUEST		créditos	1709181740567	1709181740577	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740579
+USER	débitos	START	1709181740603
+REQUEST		débitos	1709181740603	1709181740612	OK	 
+USER	débitos	END	1709181740613
+USER	créditos	START	1709181740639
+USER	débitos	START	1709181740639
+REQUEST		débitos	1709181740639	1709181740648	OK	 
+USER	débitos	END	1709181740649
+REQUEST		créditos	1709181740638	1709181740649	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740652
+USER	débitos	START	1709181740675
+REQUEST		débitos	1709181740675	1709181740685	OK	 
+USER	débitos	END	1709181740685
+USER	créditos	START	1709181740710
+USER	débitos	START	1709181740710
+REQUEST		débitos	1709181740710	1709181740720	OK	 
+USER	débitos	END	1709181740720
+REQUEST		créditos	1709181740709	1709181740720	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740722
+USER	débitos	START	1709181740747
+REQUEST		débitos	1709181740746	1709181740756	OK	 
+USER	débitos	END	1709181740756
+USER	créditos	START	1709181740782
+USER	débitos	START	1709181740783
+REQUEST		débitos	1709181740782	1709181740791	OK	 
+USER	débitos	END	1709181740792
+REQUEST		créditos	1709181740781	1709181740791	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740794
+USER	débitos	START	1709181740819
+REQUEST		débitos	1709181740818	1709181740827	OK	 
+USER	débitos	END	1709181740828
+USER	créditos	START	1709181740853
+USER	débitos	START	1709181740854
+REQUEST		débitos	1709181740853	1709181740862	OK	 
+USER	débitos	END	1709181740862
+REQUEST		créditos	1709181740852	1709181740861	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740863
+USER	débitos	START	1709181740890
+REQUEST		débitos	1709181740889	1709181740899	OK	 
+USER	débitos	END	1709181740900
+USER	créditos	START	1709181740925
+USER	débitos	START	1709181740926
+REQUEST		débitos	1709181740925	1709181740934	OK	 
+USER	débitos	END	1709181740934
+REQUEST		créditos	1709181740924	1709181740934	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181740936
+USER	débitos	START	1709181740961
+REQUEST		débitos	1709181740960	1709181740969	OK	 
+USER	débitos	END	1709181740969
+USER	créditos	START	1709181740996
+USER	débitos	START	1709181740997
+REQUEST		débitos	1709181740996	1709181741005	OK	 
+USER	débitos	END	1709181741005
+REQUEST		créditos	1709181740996	1709181741004	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741007
+USER	débitos	START	1709181741033
+REQUEST		débitos	1709181741033	1709181741043	OK	 
+USER	débitos	END	1709181741043
+USER	débitos	START	1709181741067
+USER	extratos	START	1709181741067
+USER	créditos	START	1709181741068
+REQUEST		extratos	1709181741067	1709181741075	OK	 
+USER	extratos	END	1709181741077
+REQUEST		débitos	1709181741067	1709181741078	OK	 
+USER	débitos	END	1709181741078
+REQUEST		créditos	1709181741068	1709181741077	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741080
+USER	débitos	START	1709181741101
+REQUEST		débitos	1709181741101	1709181741110	OK	 
+USER	débitos	END	1709181741111
+USER	créditos	START	1709181741133
+USER	débitos	START	1709181741135
+REQUEST		créditos	1709181741133	1709181741142	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741144
+REQUEST		débitos	1709181741135	1709181741165	OK	 
+USER	débitos	END	1709181741166
+USER	débitos	START	1709181741170
+REQUEST		débitos	1709181741170	1709181741180	OK	 
+USER	débitos	END	1709181741180
+USER	créditos	START	1709181741200
+USER	débitos	START	1709181741204
+REQUEST		créditos	1709181741200	1709181741209	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741211
+REQUEST		débitos	1709181741204	1709181741213	OK	 
+USER	débitos	END	1709181741213
+USER	débitos	START	1709181741239
+REQUEST		débitos	1709181741239	1709181741249	OK	 
+USER	débitos	END	1709181741249
+USER	créditos	START	1709181741267
+USER	débitos	START	1709181741273
+REQUEST		créditos	1709181741267	1709181741275	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741277
+REQUEST		débitos	1709181741273	1709181741282	OK	 
+USER	débitos	END	1709181741283
+USER	débitos	START	1709181741308
+REQUEST		débitos	1709181741308	1709181741316	OK	 
+USER	débitos	END	1709181741317
+USER	créditos	START	1709181741333
+REQUEST		créditos	1709181741333	1709181741341	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741343
+USER	débitos	START	1709181741344
+REQUEST		débitos	1709181741344	1709181741352	OK	 
+USER	débitos	END	1709181741353
+USER	débitos	START	1709181741377
+REQUEST		débitos	1709181741377	1709181741386	OK	 
+USER	débitos	END	1709181741387
+USER	créditos	START	1709181741400
+REQUEST		créditos	1709181741400	1709181741408	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741410
+USER	débitos	START	1709181741411
+REQUEST		débitos	1709181741411	1709181741420	OK	 
+USER	débitos	END	1709181741421
+USER	débitos	START	1709181741447
+REQUEST		débitos	1709181741446	1709181741455	OK	 
+USER	débitos	END	1709181741456
+USER	créditos	START	1709181741467
+REQUEST		créditos	1709181741467	1709181741475	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741477
+USER	débitos	START	1709181741481
+REQUEST		débitos	1709181741480	1709181741489	OK	 
+USER	débitos	END	1709181741489
+USER	débitos	START	1709181741516
+REQUEST		débitos	1709181741515	1709181741524	OK	 
+USER	débitos	END	1709181741525
+USER	créditos	START	1709181741533
+REQUEST		créditos	1709181741533	1709181741541	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741543
+USER	débitos	START	1709181741550
+REQUEST		débitos	1709181741549	1709181741558	OK	 
+USER	débitos	END	1709181741559
+USER	extratos	START	1709181741567
+REQUEST		extratos	1709181741567	1709181741574	OK	 
+USER	extratos	END	1709181741575
+USER	débitos	START	1709181741585
+REQUEST		débitos	1709181741584	1709181741593	OK	 
+USER	débitos	END	1709181741593
+USER	créditos	START	1709181741600
+REQUEST		créditos	1709181741600	1709181741608	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741610
+USER	débitos	START	1709181741619
+REQUEST		débitos	1709181741618	1709181741627	OK	 
+USER	débitos	END	1709181741628
+USER	débitos	START	1709181741654
+REQUEST		débitos	1709181741654	1709181741662	OK	 
+USER	débitos	END	1709181741663
+USER	créditos	START	1709181741667
+REQUEST		créditos	1709181741667	1709181741675	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741677
+USER	débitos	START	1709181741688
+REQUEST		débitos	1709181741687	1709181741696	OK	 
+USER	débitos	END	1709181741696
+USER	débitos	START	1709181741723
+REQUEST		débitos	1709181741723	1709181741731	OK	 
+USER	débitos	END	1709181741731
+USER	créditos	START	1709181741733
+REQUEST		créditos	1709181741733	1709181741741	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741743
+USER	débitos	START	1709181741757
+REQUEST		débitos	1709181741756	1709181741767	OK	 
+USER	débitos	END	1709181741767
+USER	débitos	START	1709181741792
+USER	créditos	START	1709181741800
+REQUEST		débitos	1709181741792	1709181741801	OK	 
+USER	débitos	END	1709181741801
+REQUEST		créditos	1709181741800	1709181741808	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741810
+USER	débitos	START	1709181741826
+REQUEST		débitos	1709181741826	1709181741834	OK	 
+USER	débitos	END	1709181741834
+USER	débitos	START	1709181741861
+USER	créditos	START	1709181741867
+REQUEST		débitos	1709181741861	1709181741870	OK	 
+USER	débitos	END	1709181741870
+REQUEST		créditos	1709181741867	1709181741876	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741878
+USER	débitos	START	1709181741895
+REQUEST		débitos	1709181741895	1709181741904	OK	 
+USER	débitos	END	1709181741904
+USER	débitos	START	1709181741931
+USER	créditos	START	1709181741933
+REQUEST		débitos	1709181741930	1709181741939	OK	 
+USER	débitos	END	1709181741939
+REQUEST		créditos	1709181741933	1709181741942	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181741944
+USER	débitos	START	1709181741965
+REQUEST		débitos	1709181741964	1709181741973	OK	 
+USER	débitos	END	1709181741973
+USER	débitos	START	1709181741999
+USER	créditos	START	1709181742001
+REQUEST		débitos	1709181741999	1709181742008	OK	 
+USER	débitos	END	1709181742008
+REQUEST		créditos	1709181742000	1709181742009	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742011
+USER	débitos	START	1709181742034
+REQUEST		débitos	1709181742033	1709181742042	OK	 
+USER	débitos	END	1709181742043
+USER	débitos	START	1709181742068
+USER	extratos	START	1709181742068
+USER	créditos	START	1709181742069
+REQUEST		débitos	1709181742067	1709181742075	OK	 
+USER	débitos	END	1709181742076
+REQUEST		extratos	1709181742067	1709181742076	OK	 
+USER	extratos	END	1709181742077
+REQUEST		créditos	1709181742068	1709181742076	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742077
+USER	débitos	START	1709181742099
+REQUEST		débitos	1709181742099	1709181742109	OK	 
+USER	débitos	END	1709181742110
+USER	créditos	START	1709181742130
+USER	débitos	START	1709181742131
+REQUEST		débitos	1709181742131	1709181742140	OK	 
+USER	débitos	END	1709181742141
+REQUEST		créditos	1709181742129	1709181742140	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742142
+USER	débitos	START	1709181742163
+REQUEST		débitos	1709181742163	1709181742172	OK	 
+USER	débitos	END	1709181742172
+USER	créditos	START	1709181742192
+USER	débitos	START	1709181742196
+REQUEST		créditos	1709181742192	1709181742201	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742203
+REQUEST		débitos	1709181742195	1709181742204	OK	 
+USER	débitos	END	1709181742205
+USER	débitos	START	1709181742228
+REQUEST		débitos	1709181742227	1709181742236	OK	 
+USER	débitos	END	1709181742237
+USER	créditos	START	1709181742254
+USER	débitos	START	1709181742260
+REQUEST		créditos	1709181742254	1709181742263	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742265
+REQUEST		débitos	1709181742259	1709181742269	OK	 
+USER	débitos	END	1709181742269
+USER	débitos	START	1709181742292
+REQUEST		débitos	1709181742292	1709181742300	OK	 
+USER	débitos	END	1709181742301
+USER	créditos	START	1709181742318
+USER	débitos	START	1709181742325
+REQUEST		créditos	1709181742317	1709181742326	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742328
+REQUEST		débitos	1709181742324	1709181742333	OK	 
+USER	débitos	END	1709181742334
+USER	débitos	START	1709181742357
+REQUEST		débitos	1709181742356	1709181742365	OK	 
+USER	débitos	END	1709181742365
+USER	créditos	START	1709181742379
+USER	débitos	START	1709181742389
+REQUEST		créditos	1709181742379	1709181742388	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742389
+REQUEST		débitos	1709181742388	1709181742396	OK	 
+USER	débitos	END	1709181742397
+USER	débitos	START	1709181742421
+REQUEST		débitos	1709181742421	1709181742429	OK	 
+USER	débitos	END	1709181742429
+USER	créditos	START	1709181742443
+REQUEST		créditos	1709181742442	1709181742450	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742452
+USER	débitos	START	1709181742454
+REQUEST		débitos	1709181742453	1709181742461	OK	 
+USER	débitos	END	1709181742462
+USER	débitos	START	1709181742486
+REQUEST		débitos	1709181742485	1709181742494	OK	 
+USER	débitos	END	1709181742494
+USER	créditos	START	1709181742505
+REQUEST		créditos	1709181742504	1709181742512	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742514
+USER	débitos	START	1709181742518
+REQUEST		débitos	1709181742517	1709181742526	OK	 
+USER	débitos	END	1709181742526
+USER	débitos	START	1709181742550
+REQUEST		débitos	1709181742550	1709181742558	OK	 
+USER	débitos	END	1709181742558
+USER	extratos	START	1709181742567
+USER	créditos	START	1709181742567
+REQUEST		extratos	1709181742566	1709181742574	OK	 
+USER	extratos	END	1709181742575
+REQUEST		créditos	1709181742567	1709181742574	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742576
+USER	débitos	START	1709181742583
+REQUEST		débitos	1709181742582	1709181742591	OK	 
+USER	débitos	END	1709181742592
+USER	débitos	START	1709181742615
+REQUEST		débitos	1709181742615	1709181742623	OK	 
+USER	débitos	END	1709181742623
+USER	créditos	START	1709181742629
+REQUEST		créditos	1709181742629	1709181742637	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742638
+USER	débitos	START	1709181742647
+REQUEST		débitos	1709181742647	1709181742656	OK	 
+USER	débitos	END	1709181742656
+USER	débitos	START	1709181742679
+REQUEST		débitos	1709181742678	1709181742687	OK	 
+USER	débitos	END	1709181742687
+USER	créditos	START	1709181742692
+REQUEST		créditos	1709181742692	1709181742700	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742702
+USER	débitos	START	1709181742712
+REQUEST		débitos	1709181742712	1709181742720	OK	 
+USER	débitos	END	1709181742721
+USER	débitos	START	1709181742744
+REQUEST		débitos	1709181742744	1709181742752	OK	 
+USER	débitos	END	1709181742753
+USER	créditos	START	1709181742754
+REQUEST		créditos	1709181742754	1709181742762	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742764
+USER	débitos	START	1709181742777
+REQUEST		débitos	1709181742776	1709181742784	OK	 
+USER	débitos	END	1709181742785
+USER	débitos	START	1709181742809
+REQUEST		débitos	1709181742808	1709181742818	OK	 
+USER	créditos	START	1709181742818
+USER	débitos	END	1709181742818
+REQUEST		créditos	1709181742817	1709181742825	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742827
+USER	débitos	START	1709181742841
+REQUEST		débitos	1709181742841	1709181742849	OK	 
+USER	débitos	END	1709181742849
+USER	débitos	START	1709181742873
+USER	créditos	START	1709181742880
+REQUEST		débitos	1709181742873	1709181742882	OK	 
+USER	débitos	END	1709181742883
+REQUEST		créditos	1709181742879	1709181742887	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181742889
+USER	débitos	START	1709181742906
+REQUEST		débitos	1709181742905	1709181742915	OK	 
+USER	débitos	END	1709181742915
+USER	débitos	START	1709181742938
+USER	créditos	START	1709181742943
+REQUEST		débitos	1709181742937	1709181742947	OK	 
+USER	débitos	END	1709181742947
+USER	débitos	START	1709181742971
+REQUEST		débitos	1709181742971	1709181742979	OK	 
+USER	débitos	END	1709181742979
+USER	débitos	START	1709181743002
+USER	créditos	START	1709181743005
+REQUEST		créditos	1709181742942	1709181743005	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743007
+REQUEST		débitos	1709181743002	1709181743010	OK	 
+USER	débitos	END	1709181743011
+REQUEST		créditos	1709181743004	1709181743013	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743015
+USER	débitos	START	1709181743035
+REQUEST		débitos	1709181743034	1709181743043	OK	 
+USER	débitos	END	1709181743043
+USER	extratos	START	1709181743067
+USER	créditos	START	1709181743068
+USER	débitos	START	1709181743068
+REQUEST		extratos	1709181743066	1709181743077	OK	 
+REQUEST		débitos	1709181743068	1709181743078	OK	 
+USER	extratos	END	1709181743078
+USER	débitos	END	1709181743078
+REQUEST		créditos	1709181743068	1709181743076	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743079
+USER	débitos	START	1709181743097
+REQUEST		débitos	1709181743097	1709181743105	OK	 
+USER	débitos	END	1709181743106
+USER	créditos	START	1709181743126
+USER	débitos	START	1709181743127
+REQUEST		débitos	1709181743127	1709181743135	OK	 
+USER	débitos	END	1709181743135
+REQUEST		créditos	1709181743125	1709181743135	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743136
+USER	débitos	START	1709181743157
+REQUEST		débitos	1709181743157	1709181743165	OK	 
+USER	débitos	END	1709181743166
+USER	créditos	START	1709181743185
+USER	débitos	START	1709181743188
+REQUEST		créditos	1709181743184	1709181743192	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743194
+REQUEST		débitos	1709181743188	1709181743196	OK	 
+USER	débitos	END	1709181743196
+USER	débitos	START	1709181743218
+REQUEST		débitos	1709181743218	1709181743226	OK	 
+USER	débitos	END	1709181743226
+USER	créditos	START	1709181743244
+USER	débitos	START	1709181743248
+REQUEST		créditos	1709181743243	1709181743251	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743253
+REQUEST		débitos	1709181743248	1709181743256	OK	 
+USER	débitos	END	1709181743256
+USER	débitos	START	1709181743279
+REQUEST		débitos	1709181743279	1709181743286	OK	 
+USER	débitos	END	1709181743287
+USER	créditos	START	1709181743303
+USER	débitos	START	1709181743309
+REQUEST		créditos	1709181743302	1709181743310	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743312
+REQUEST		débitos	1709181743309	1709181743317	OK	 
+USER	débitos	END	1709181743318
+USER	débitos	START	1709181743339
+REQUEST		débitos	1709181743339	1709181743347	OK	 
+USER	débitos	END	1709181743347
+USER	créditos	START	1709181743362
+USER	débitos	START	1709181743370
+REQUEST		créditos	1709181743361	1709181743369	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743371
+REQUEST		débitos	1709181743370	1709181743377	OK	 
+USER	débitos	END	1709181743378
+USER	extratos	START	1709181743400
+USER	débitos	START	1709181743400
+REQUEST		débitos	1709181743400	1709181743408	OK	 
+USER	débitos	END	1709181743408
+REQUEST		extratos	1709181743400	1709181743407	OK	 
+USER	extratos	END	1709181743408
+USER	créditos	START	1709181743420
+REQUEST		créditos	1709181743419	1709181743427	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743429
+USER	débitos	START	1709181743430
+REQUEST		débitos	1709181743430	1709181743437	OK	 
+USER	débitos	END	1709181743438
+USER	débitos	START	1709181743460
+REQUEST		débitos	1709181743460	1709181743468	OK	 
+USER	débitos	END	1709181743468
+USER	créditos	START	1709181743479
+REQUEST		créditos	1709181743478	1709181743486	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743488
+USER	débitos	START	1709181743491
+REQUEST		débitos	1709181743491	1709181743500	OK	 
+USER	débitos	END	1709181743500
+USER	débitos	START	1709181743521
+REQUEST		débitos	1709181743521	1709181743528	OK	 
+USER	débitos	END	1709181743529
+USER	créditos	START	1709181743538
+REQUEST		créditos	1709181743538	1709181743545	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743547
+USER	débitos	START	1709181743551
+REQUEST		débitos	1709181743551	1709181743559	OK	 
+USER	débitos	END	1709181743560
+USER	débitos	START	1709181743582
+REQUEST		débitos	1709181743582	1709181743590	OK	 
+USER	débitos	END	1709181743590
+USER	créditos	START	1709181743597
+REQUEST		créditos	1709181743596	1709181743604	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743606
+USER	débitos	START	1709181743613
+REQUEST		débitos	1709181743612	1709181743621	OK	 
+USER	débitos	END	1709181743622
+USER	débitos	START	1709181743643
+REQUEST		débitos	1709181743642	1709181743650	OK	 
+USER	débitos	END	1709181743651
+USER	créditos	START	1709181743655
+REQUEST		créditos	1709181743655	1709181743663	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743664
+USER	débitos	START	1709181743674
+REQUEST		débitos	1709181743673	1709181743682	OK	 
+USER	débitos	END	1709181743682
+USER	débitos	START	1709181743704
+REQUEST		débitos	1709181743703	1709181743711	OK	 
+USER	débitos	END	1709181743712
+USER	créditos	START	1709181743715
+REQUEST		créditos	1709181743714	1709181743722	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743724
+USER	extratos	START	1709181743733
+USER	débitos	START	1709181743734
+REQUEST		débitos	1709181743733	1709181743742	OK	 
+REQUEST		extratos	1709181743733	1709181743741	OK	 
+USER	débitos	END	1709181743742
+USER	extratos	END	1709181743742
+USER	débitos	START	1709181743764
+REQUEST		débitos	1709181743763	1709181743771	OK	 
+USER	débitos	END	1709181743772
+USER	créditos	START	1709181743773
+REQUEST		créditos	1709181743772	1709181743780	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743781
+USER	débitos	START	1709181743795
+REQUEST		débitos	1709181743794	1709181743803	OK	 
+USER	débitos	END	1709181743803
+USER	débitos	START	1709181743825
+USER	créditos	START	1709181743832
+REQUEST		débitos	1709181743824	1709181743832	OK	 
+USER	débitos	END	1709181743833
+REQUEST		créditos	1709181743831	1709181743839	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743841
+USER	débitos	START	1709181743854
+REQUEST		débitos	1709181743854	1709181743862	OK	 
+USER	débitos	END	1709181743862
+USER	débitos	START	1709181743886
+USER	créditos	START	1709181743891
+REQUEST		débitos	1709181743886	1709181743894	OK	 
+USER	débitos	END	1709181743894
+REQUEST		créditos	1709181743890	1709181743898	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743900
+USER	débitos	START	1709181743916
+REQUEST		débitos	1709181743916	1709181743925	OK	 
+USER	débitos	END	1709181743926
+USER	débitos	START	1709181743946
+USER	créditos	START	1709181743950
+REQUEST		débitos	1709181743946	1709181743954	OK	 
+USER	débitos	END	1709181743954
+REQUEST		créditos	1709181743949	1709181743957	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181743959
+USER	débitos	START	1709181743977
+REQUEST		débitos	1709181743977	1709181743984	OK	 
+USER	débitos	END	1709181743985
+USER	débitos	START	1709181744007
+USER	créditos	START	1709181744009
+REQUEST		débitos	1709181744007	1709181744016	OK	 
+USER	débitos	END	1709181744016
+REQUEST		créditos	1709181744009	1709181744017	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744019
+USER	débitos	START	1709181744037
+REQUEST		débitos	1709181744037	1709181744045	OK	 
+USER	débitos	END	1709181744045
+USER	extratos	START	1709181744067
+USER	débitos	START	1709181744067
+USER	créditos	START	1709181744067
+REQUEST		extratos	1709181744067	1709181744075	OK	 
+REQUEST		débitos	1709181744066	1709181744076	OK	 
+USER	extratos	END	1709181744076
+USER	débitos	END	1709181744076
+REQUEST		créditos	1709181744067	1709181744075	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744076
+USER	débitos	START	1709181744095
+REQUEST		débitos	1709181744095	1709181744103	OK	 
+USER	débitos	END	1709181744104
+USER	débitos	START	1709181744124
+USER	créditos	START	1709181744125
+REQUEST		débitos	1709181744124	1709181744132	OK	 
+USER	débitos	END	1709181744132
+REQUEST		créditos	1709181744125	1709181744132	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744134
+USER	débitos	START	1709181744152
+REQUEST		débitos	1709181744152	1709181744160	OK	 
+USER	débitos	END	1709181744160
+USER	débitos	START	1709181744181
+USER	créditos	START	1709181744184
+REQUEST		débitos	1709181744181	1709181744189	OK	 
+USER	débitos	END	1709181744190
+REQUEST		créditos	1709181744183	1709181744191	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744193
+USER	débitos	START	1709181744209
+REQUEST		débitos	1709181744209	1709181744217	OK	 
+USER	débitos	END	1709181744217
+USER	débitos	START	1709181744238
+USER	créditos	START	1709181744243
+REQUEST		débitos	1709181744238	1709181744246	OK	 
+USER	débitos	END	1709181744247
+REQUEST		créditos	1709181744242	1709181744251	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744253
+USER	débitos	START	1709181744266
+REQUEST		débitos	1709181744266	1709181744274	OK	 
+USER	débitos	END	1709181744274
+USER	débitos	START	1709181744295
+USER	créditos	START	1709181744302
+REQUEST		débitos	1709181744295	1709181744303	OK	 
+USER	débitos	END	1709181744303
+REQUEST		créditos	1709181744301	1709181744309	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744311
+USER	débitos	START	1709181744324
+REQUEST		débitos	1709181744324	1709181744332	OK	 
+USER	débitos	END	1709181744332
+USER	débitos	START	1709181744352
+REQUEST		débitos	1709181744352	1709181744360	OK	 
+USER	débitos	END	1709181744360
+USER	créditos	START	1709181744361
+REQUEST		créditos	1709181744360	1709181744368	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744370
+USER	débitos	START	1709181744381
+REQUEST		débitos	1709181744381	1709181744389	OK	 
+USER	débitos	END	1709181744389
+USER	débitos	START	1709181744409
+REQUEST		débitos	1709181744409	1709181744417	OK	 
+USER	débitos	END	1709181744417
+USER	créditos	START	1709181744419
+REQUEST		créditos	1709181744419	1709181744427	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744429
+USER	débitos	START	1709181744438
+REQUEST		débitos	1709181744438	1709181744446	OK	 
+USER	débitos	END	1709181744447
+USER	débitos	START	1709181744466
+REQUEST		débitos	1709181744466	1709181744474	OK	 
+USER	débitos	END	1709181744474
+USER	créditos	START	1709181744478
+REQUEST		créditos	1709181744477	1709181744486	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744487
+USER	débitos	START	1709181744495
+REQUEST		débitos	1709181744495	1709181744503	OK	 
+USER	débitos	END	1709181744504
+USER	débitos	START	1709181744524
+REQUEST		débitos	1709181744524	1709181744533	OK	 
+USER	débitos	END	1709181744533
+USER	créditos	START	1709181744537
+REQUEST		créditos	1709181744537	1709181744545	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744546
+USER	débitos	START	1709181744552
+REQUEST		débitos	1709181744552	1709181744561	OK	 
+USER	débitos	END	1709181744561
+USER	extratos	START	1709181744567
+REQUEST		extratos	1709181744567	1709181744574	OK	 
+USER	extratos	END	1709181744575
+USER	débitos	START	1709181744582
+REQUEST		débitos	1709181744581	1709181744594	OK	 
+USER	débitos	END	1709181744595
+USER	créditos	START	1709181744596
+REQUEST		créditos	1709181744596	1709181744604	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744607
+USER	débitos	START	1709181744609
+REQUEST		débitos	1709181744609	1709181744618	OK	 
+USER	débitos	END	1709181744618
+USER	débitos	START	1709181744638
+REQUEST		débitos	1709181744638	1709181744650	OK	 
+USER	débitos	END	1709181744651
+USER	créditos	START	1709181744655
+USER	débitos	START	1709181744666
+REQUEST		créditos	1709181744655	1709181744667	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744669
+USER	débitos	START	1709181744696
+REQUEST		débitos	1709181744666	1709181744702	OK	 
+USER	débitos	END	1709181744702
+REQUEST		débitos	1709181744695	1709181744706	OK	 
+USER	débitos	END	1709181744706
+USER	créditos	START	1709181744714
+REQUEST		créditos	1709181744713	1709181744722	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744724
+USER	débitos	START	1709181744725
+USER	débitos	START	1709181744753
+REQUEST		débitos	1709181744724	1709181744764	OK	 
+USER	débitos	END	1709181744765
+USER	créditos	START	1709181744772
+REQUEST		créditos	1709181744771	1709181744779	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744781
+USER	débitos	START	1709181744782
+REQUEST		débitos	1709181744752	1709181744798	OK	 
+USER	débitos	END	1709181744799
+REQUEST		débitos	1709181744781	1709181744802	OK	 
+USER	débitos	END	1709181744802
+USER	débitos	START	1709181744810
+USER	créditos	START	1709181744831
+USER	débitos	START	1709181744839
+REQUEST		créditos	1709181744830	1709181744838	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744840
+REQUEST		débitos	1709181744809	1709181744865	OK	 
+USER	débitos	END	1709181744866
+USER	débitos	START	1709181744867
+REQUEST		débitos	1709181744838	1709181744868	OK	 
+USER	débitos	END	1709181744869
+USER	créditos	START	1709181744890
+USER	débitos	START	1709181744895
+REQUEST		débitos	1709181744866	1709181744897	OK	 
+USER	débitos	END	1709181744898
+REQUEST		créditos	1709181744889	1709181744897	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744899
+REQUEST		débitos	1709181744895	1709181744903	OK	 
+USER	débitos	END	1709181744904
+USER	débitos	START	1709181744925
+USER	créditos	START	1709181744949
+USER	débitos	START	1709181744953
+REQUEST		créditos	1709181744948	1709181744956	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181744958
+REQUEST		débitos	1709181744924	1709181744963	OK	 
+USER	débitos	END	1709181744964
+REQUEST		débitos	1709181744952	1709181744964	OK	 
+USER	débitos	END	1709181744964
+USER	débitos	START	1709181744982
+REQUEST		débitos	1709181744981	1709181744989	OK	 
+USER	débitos	END	1709181744990
+USER	créditos	START	1709181745008
+USER	débitos	START	1709181745010
+REQUEST		débitos	1709181745010	1709181745018	OK	 
+REQUEST		créditos	1709181745008	1709181745017	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	débitos	END	1709181745018
+USER	créditos	END	1709181745018
+USER	débitos	START	1709181745039
+REQUEST		débitos	1709181745038	1709181745046	OK	 
+USER	débitos	END	1709181745047
+USER	extratos	START	1709181745067
+USER	créditos	START	1709181745067
+USER	débitos	START	1709181745067
+REQUEST		extratos	1709181745067	1709181745074	OK	 
+USER	extratos	END	1709181745075
+REQUEST		débitos	1709181745067	1709181745076	OK	 
+USER	débitos	END	1709181745076
+REQUEST		créditos	1709181745067	1709181745076	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745077
+USER	débitos	START	1709181745094
+REQUEST		débitos	1709181745094	1709181745101	OK	 
+USER	débitos	END	1709181745102
+USER	créditos	START	1709181745119
+USER	débitos	START	1709181745121
+REQUEST		créditos	1709181745118	1709181745126	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745128
+REQUEST		débitos	1709181745121	1709181745129	OK	 
+USER	débitos	END	1709181745129
+USER	débitos	START	1709181745148
+REQUEST		débitos	1709181745148	1709181745156	OK	 
+USER	débitos	END	1709181745156
+USER	créditos	START	1709181745172
+USER	débitos	START	1709181745175
+REQUEST		créditos	1709181745171	1709181745180	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745181
+REQUEST		débitos	1709181745175	1709181745183	OK	 
+USER	débitos	END	1709181745184
+USER	débitos	START	1709181745202
+REQUEST		débitos	1709181745202	1709181745210	OK	 
+USER	débitos	END	1709181745211
+USER	créditos	START	1709181745224
+USER	débitos	START	1709181745229
+REQUEST		créditos	1709181745223	1709181745233	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745235
+REQUEST		débitos	1709181745229	1709181745238	OK	 
+USER	débitos	END	1709181745239
+USER	débitos	START	1709181745256
+REQUEST		débitos	1709181745256	1709181745264	OK	 
+USER	débitos	END	1709181745264
+USER	créditos	START	1709181745277
+USER	débitos	START	1709181745283
+REQUEST		créditos	1709181745276	1709181745285	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745287
+REQUEST		débitos	1709181745283	1709181745291	OK	 
+USER	débitos	END	1709181745292
+USER	débitos	START	1709181745310
+REQUEST		débitos	1709181745310	1709181745318	OK	 
+USER	débitos	END	1709181745319
+USER	créditos	START	1709181745330
+USER	débitos	START	1709181745337
+REQUEST		créditos	1709181745329	1709181745339	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745341
+REQUEST		débitos	1709181745337	1709181745345	OK	 
+USER	débitos	END	1709181745346
+USER	débitos	START	1709181745365
+REQUEST		débitos	1709181745364	1709181745374	OK	 
+USER	débitos	END	1709181745374
+USER	créditos	START	1709181745382
+REQUEST		créditos	1709181745382	1709181745389	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745391
+USER	débitos	START	1709181745391
+REQUEST		débitos	1709181745391	1709181745400	OK	 
+USER	débitos	END	1709181745400
+USER	extratos	START	1709181745400
+REQUEST		extratos	1709181745400	1709181745407	OK	 
+USER	extratos	END	1709181745408
+USER	débitos	START	1709181745419
+REQUEST		débitos	1709181745418	1709181745426	OK	 
+USER	débitos	END	1709181745426
+USER	créditos	START	1709181745435
+REQUEST		créditos	1709181745434	1709181745443	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745445
+USER	débitos	START	1709181745446
+REQUEST		débitos	1709181745445	1709181745454	OK	 
+USER	débitos	END	1709181745454
+USER	débitos	START	1709181745473
+REQUEST		débitos	1709181745472	1709181745480	OK	 
+USER	débitos	END	1709181745481
+USER	créditos	START	1709181745488
+REQUEST		créditos	1709181745488	1709181745496	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745498
+USER	débitos	START	1709181745499
+REQUEST		débitos	1709181745499	1709181745506	OK	 
+USER	débitos	END	1709181745507
+USER	débitos	START	1709181745526
+REQUEST		débitos	1709181745526	1709181745534	OK	 
+USER	débitos	END	1709181745535
+USER	créditos	START	1709181745541
+REQUEST		créditos	1709181745541	1709181745549	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745552
+USER	débitos	START	1709181745553
+REQUEST		débitos	1709181745553	1709181745564	OK	 
+USER	débitos	END	1709181745564
+USER	débitos	START	1709181745580
+REQUEST		débitos	1709181745580	1709181745588	OK	 
+USER	débitos	END	1709181745589
+USER	créditos	START	1709181745594
+REQUEST		créditos	1709181745594	1709181745603	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745606
+USER	débitos	START	1709181745607
+REQUEST		débitos	1709181745607	1709181745615	OK	 
+USER	débitos	END	1709181745616
+USER	débitos	START	1709181745635
+REQUEST		débitos	1709181745634	1709181745642	OK	 
+USER	débitos	END	1709181745643
+USER	créditos	START	1709181745645
+REQUEST		créditos	1709181745645	1709181745652	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745654
+USER	débitos	START	1709181745661
+REQUEST		débitos	1709181745661	1709181745669	OK	 
+USER	débitos	END	1709181745669
+USER	débitos	START	1709181745688
+REQUEST		débitos	1709181745688	1709181745696	OK	 
+USER	débitos	END	1709181745696
+USER	créditos	START	1709181745698
+REQUEST		créditos	1709181745698	1709181745705	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745707
+USER	débitos	START	1709181745715
+REQUEST		débitos	1709181745715	1709181745723	OK	 
+USER	débitos	END	1709181745724
+USER	extratos	START	1709181745734
+REQUEST		extratos	1709181745733	1709181745740	OK	 
+USER	extratos	END	1709181745741
+USER	débitos	START	1709181745743
+USER	créditos	START	1709181745751
+REQUEST		créditos	1709181745750	1709181745758	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745760
+REQUEST		débitos	1709181745742	1709181745765	OK	 
+USER	débitos	END	1709181745766
+USER	débitos	START	1709181745770
+REQUEST		débitos	1709181745770	1709181745778	OK	 
+USER	débitos	END	1709181745778
+USER	débitos	START	1709181745797
+USER	créditos	START	1709181745803
+REQUEST		débitos	1709181745796	1709181745804	OK	 
+USER	débitos	END	1709181745805
+REQUEST		créditos	1709181745803	1709181745811	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745813
+USER	débitos	START	1709181745824
+REQUEST		débitos	1709181745824	1709181745831	OK	 
+USER	débitos	END	1709181745832
+USER	débitos	START	1709181745851
+USER	créditos	START	1709181745856
+REQUEST		créditos	1709181745856	1709181745864	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745866
+REQUEST		débitos	1709181745851	1709181745866	OK	 
+USER	débitos	END	1709181745866
+USER	débitos	START	1709181745878
+REQUEST		débitos	1709181745878	1709181745887	OK	 
+USER	débitos	END	1709181745887
+USER	débitos	START	1709181745905
+USER	créditos	START	1709181745909
+REQUEST		débitos	1709181745905	1709181745912	OK	 
+USER	débitos	END	1709181745913
+REQUEST		créditos	1709181745908	1709181745916	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181745918
+USER	débitos	START	1709181745932
+REQUEST		débitos	1709181745931	1709181745941	OK	 
+USER	débitos	END	1709181745942
+USER	débitos	START	1709181745958
+USER	créditos	START	1709181745961
+REQUEST		débitos	1709181745958	1709181745966	OK	 
+USER	débitos	END	1709181745966
+USER	débitos	START	1709181745986
+REQUEST		débitos	1709181745986	1709181745993	OK	 
+USER	débitos	END	1709181745993
+REQUEST		créditos	1709181745960	1709181745998	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746000
+USER	débitos	START	1709181746013
+USER	créditos	START	1709181746014
+REQUEST		débitos	1709181746013	1709181746023	OK	 
+USER	débitos	END	1709181746023
+REQUEST		créditos	1709181746014	1709181746022	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746024
+USER	débitos	START	1709181746040
+REQUEST		débitos	1709181746040	1709181746048	OK	 
+USER	débitos	END	1709181746048
+USER	créditos	START	1709181746067
+USER	débitos	START	1709181746067
+USER	extratos	START	1709181746067
+REQUEST		débitos	1709181746067	1709181746074	OK	 
+REQUEST		extratos	1709181746067	1709181746074	OK	 
+USER	débitos	END	1709181746075
+USER	extratos	END	1709181746075
+REQUEST		créditos	1709181746067	1709181746074	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746076
+USER	débitos	START	1709181746093
+REQUEST		débitos	1709181746093	1709181746101	OK	 
+USER	débitos	END	1709181746101
+USER	créditos	START	1709181746116
+USER	débitos	START	1709181746119
+REQUEST		créditos	1709181746116	1709181746124	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746126
+REQUEST		débitos	1709181746119	1709181746127	OK	 
+USER	débitos	END	1709181746127
+USER	débitos	START	1709181746145
+REQUEST		débitos	1709181746145	1709181746152	OK	 
+USER	débitos	END	1709181746153
+USER	créditos	START	1709181746167
+USER	débitos	START	1709181746172
+REQUEST		créditos	1709181746166	1709181746174	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746176
+REQUEST		débitos	1709181746172	1709181746179	OK	 
+USER	débitos	END	1709181746180
+USER	débitos	START	1709181746198
+REQUEST		débitos	1709181746198	1709181746206	OK	 
+USER	débitos	END	1709181746206
+USER	créditos	START	1709181746217
+USER	débitos	START	1709181746224
+REQUEST		créditos	1709181746216	1709181746224	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746226
+REQUEST		débitos	1709181746224	1709181746231	OK	 
+USER	débitos	END	1709181746232
+USER	débitos	START	1709181746251
+REQUEST		débitos	1709181746251	1709181746258	OK	 
+USER	débitos	END	1709181746258
+USER	créditos	START	1709181746267
+REQUEST		créditos	1709181746266	1709181746274	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746275
+USER	débitos	START	1709181746277
+REQUEST		débitos	1709181746277	1709181746284	OK	 
+USER	débitos	END	1709181746284
+USER	débitos	START	1709181746303
+REQUEST		débitos	1709181746303	1709181746310	OK	 
+USER	débitos	END	1709181746311
+USER	créditos	START	1709181746317
+REQUEST		créditos	1709181746316	1709181746324	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746326
+USER	débitos	START	1709181746330
+REQUEST		débitos	1709181746330	1709181746338	OK	 
+USER	débitos	END	1709181746339
+USER	débitos	START	1709181746356
+REQUEST		débitos	1709181746356	1709181746364	OK	 
+USER	débitos	END	1709181746365
+USER	créditos	START	1709181746367
+REQUEST		créditos	1709181746366	1709181746374	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746375
+USER	débitos	START	1709181746382
+REQUEST		débitos	1709181746382	1709181746389	OK	 
+USER	débitos	END	1709181746389
+USER	débitos	START	1709181746409
+REQUEST		débitos	1709181746409	1709181746416	OK	 
+USER	créditos	START	1709181746417
+USER	débitos	END	1709181746417
+REQUEST		créditos	1709181746417	1709181746424	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746425
+USER	débitos	START	1709181746435
+REQUEST		débitos	1709181746435	1709181746443	OK	 
+USER	débitos	END	1709181746443
+USER	débitos	START	1709181746461
+USER	créditos	START	1709181746467
+REQUEST		débitos	1709181746461	1709181746469	OK	 
+USER	débitos	END	1709181746469
+REQUEST		créditos	1709181746466	1709181746474	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746476
+USER	débitos	START	1709181746488
+REQUEST		débitos	1709181746488	1709181746495	OK	 
+USER	débitos	END	1709181746495
+USER	débitos	START	1709181746515
+USER	créditos	START	1709181746517
+REQUEST		débitos	1709181746514	1709181746522	OK	 
+USER	débitos	END	1709181746523
+REQUEST		créditos	1709181746517	1709181746524	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746526
+USER	débitos	START	1709181746540
+REQUEST		débitos	1709181746540	1709181746548	OK	 
+USER	débitos	END	1709181746548
+USER	créditos	START	1709181746567
+USER	extratos	START	1709181746567
+USER	débitos	START	1709181746567
+REQUEST		extratos	1709181746567	1709181746574	OK	 
+USER	extratos	END	1709181746575
+REQUEST		débitos	1709181746567	1709181746575	OK	 
+USER	débitos	END	1709181746575
+REQUEST		créditos	1709181746566	1709181746574	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746576
+USER	débitos	START	1709181746593
+REQUEST		débitos	1709181746593	1709181746601	OK	 
+USER	débitos	END	1709181746601
+USER	créditos	START	1709181746617
+USER	débitos	START	1709181746619
+REQUEST		créditos	1709181746617	1709181746625	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746627
+REQUEST		débitos	1709181746619	1709181746627	OK	 
+USER	débitos	END	1709181746628
+USER	débitos	START	1709181746645
+REQUEST		débitos	1709181746645	1709181746652	OK	 
+USER	débitos	END	1709181746653
+USER	créditos	START	1709181746667
+USER	débitos	START	1709181746672
+REQUEST		créditos	1709181746666	1709181746674	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746675
+REQUEST		débitos	1709181746672	1709181746679	OK	 
+USER	débitos	END	1709181746680
+USER	débitos	START	1709181746698
+REQUEST		débitos	1709181746698	1709181746706	OK	 
+USER	débitos	END	1709181746707
+USER	créditos	START	1709181746717
+USER	débitos	START	1709181746724
+REQUEST		créditos	1709181746717	1709181746725	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746727
+REQUEST		débitos	1709181746724	1709181746732	OK	 
+USER	débitos	END	1709181746732
+USER	débitos	START	1709181746751
+REQUEST		débitos	1709181746751	1709181746758	OK	 
+USER	débitos	END	1709181746759
+USER	créditos	START	1709181746767
+REQUEST		créditos	1709181746766	1709181746774	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746776
+USER	débitos	START	1709181746777
+REQUEST		débitos	1709181746777	1709181746785	OK	 
+USER	débitos	END	1709181746785
+USER	débitos	START	1709181746804
+REQUEST		débitos	1709181746804	1709181746811	OK	 
+USER	débitos	END	1709181746812
+USER	créditos	START	1709181746817
+REQUEST		créditos	1709181746816	1709181746825	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746827
+USER	débitos	START	1709181746831
+REQUEST		débitos	1709181746830	1709181746838	OK	 
+USER	débitos	END	1709181746838
+USER	débitos	START	1709181746857
+REQUEST		débitos	1709181746856	1709181746864	OK	 
+USER	débitos	END	1709181746864
+USER	créditos	START	1709181746867
+REQUEST		créditos	1709181746866	1709181746874	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746876
+USER	débitos	START	1709181746883
+REQUEST		débitos	1709181746882	1709181746890	OK	 
+USER	débitos	END	1709181746890
+USER	débitos	START	1709181746910
+USER	créditos	START	1709181746917
+REQUEST		débitos	1709181746909	1709181746918	OK	 
+USER	débitos	END	1709181746918
+REQUEST		créditos	1709181746916	1709181746924	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746925
+USER	débitos	START	1709181746936
+REQUEST		débitos	1709181746935	1709181746943	OK	 
+USER	débitos	END	1709181746943
+USER	débitos	START	1709181746962
+USER	créditos	START	1709181746967
+REQUEST		débitos	1709181746961	1709181746970	OK	 
+USER	débitos	END	1709181746970
+REQUEST		créditos	1709181746966	1709181746974	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181746976
+USER	débitos	START	1709181746989
+REQUEST		débitos	1709181746989	1709181746996	OK	 
+USER	débitos	END	1709181746996
+USER	débitos	START	1709181747015
+USER	créditos	START	1709181747017
+REQUEST		débitos	1709181747014	1709181747022	OK	 
+USER	débitos	END	1709181747023
+REQUEST		créditos	1709181747017	1709181747024	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747026
+USER	débitos	START	1709181747041
+REQUEST		débitos	1709181747041	1709181747049	OK	 
+USER	débitos	END	1709181747050
+USER	débitos	START	1709181747066
+USER	extratos	START	1709181747067
+USER	créditos	START	1709181747067
+REQUEST		débitos	1709181747066	1709181747074	OK	 
+REQUEST		extratos	1709181747067	1709181747074	OK	 
+USER	extratos	END	1709181747075
+USER	débitos	END	1709181747075
+REQUEST		créditos	1709181747067	1709181747074	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747076
+USER	débitos	START	1709181747091
+REQUEST		débitos	1709181747091	1709181747099	OK	 
+USER	débitos	END	1709181747099
+USER	débitos	START	1709181747117
+USER	créditos	START	1709181747117
+REQUEST		débitos	1709181747116	1709181747124	OK	 
+USER	débitos	END	1709181747125
+REQUEST		créditos	1709181747117	1709181747124	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747126
+USER	débitos	START	1709181747142
+REQUEST		débitos	1709181747141	1709181747149	OK	 
+USER	débitos	END	1709181747150
+USER	débitos	START	1709181747167
+USER	créditos	START	1709181747167
+REQUEST		débitos	1709181747166	1709181747174	OK	 
+USER	débitos	END	1709181747175
+REQUEST		créditos	1709181747167	1709181747174	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747176
+USER	débitos	START	1709181747192
+REQUEST		débitos	1709181747191	1709181747199	OK	 
+USER	débitos	END	1709181747200
+USER	débitos	START	1709181747217
+USER	créditos	START	1709181747217
+REQUEST		débitos	1709181747216	1709181747224	OK	 
+USER	débitos	END	1709181747225
+REQUEST		créditos	1709181747217	1709181747224	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747226
+USER	débitos	START	1709181747242
+REQUEST		débitos	1709181747241	1709181747249	OK	 
+USER	débitos	END	1709181747249
+USER	débitos	START	1709181747267
+USER	créditos	START	1709181747267
+REQUEST		débitos	1709181747266	1709181747274	OK	 
+USER	débitos	END	1709181747275
+REQUEST		créditos	1709181747267	1709181747274	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747276
+USER	débitos	START	1709181747292
+REQUEST		débitos	1709181747291	1709181747299	OK	 
+USER	débitos	END	1709181747300
+USER	débitos	START	1709181747317
+USER	créditos	START	1709181747317
+REQUEST		débitos	1709181747316	1709181747324	OK	 
+USER	débitos	END	1709181747324
+REQUEST		créditos	1709181747317	1709181747324	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747326
+USER	débitos	START	1709181747342
+REQUEST		débitos	1709181747341	1709181747350	OK	 
+USER	débitos	END	1709181747350
+USER	débitos	START	1709181747367
+USER	créditos	START	1709181747367
+REQUEST		débitos	1709181747366	1709181747374	OK	 
+USER	débitos	END	1709181747375
+REQUEST		créditos	1709181747367	1709181747374	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747376
+USER	débitos	START	1709181747392
+REQUEST		débitos	1709181747392	1709181747400	OK	 
+USER	débitos	END	1709181747400
+USER	extratos	START	1709181747400
+REQUEST		extratos	1709181747400	1709181747407	OK	 
+USER	extratos	END	1709181747408
+USER	débitos	START	1709181747417
+USER	créditos	START	1709181747417
+REQUEST		débitos	1709181747416	1709181747424	OK	 
+USER	débitos	END	1709181747424
+REQUEST		créditos	1709181747417	1709181747424	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747426
+USER	débitos	START	1709181747442
+REQUEST		débitos	1709181747441	1709181747450	OK	 
+USER	débitos	END	1709181747450
+USER	débitos	START	1709181747467
+USER	créditos	START	1709181747467
+REQUEST		débitos	1709181747466	1709181747474	OK	 
+USER	débitos	END	1709181747474
+REQUEST		créditos	1709181747467	1709181747474	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747475
+USER	débitos	START	1709181747492
+REQUEST		débitos	1709181747492	1709181747500	OK	 
+USER	débitos	END	1709181747500
+USER	débitos	START	1709181747517
+USER	créditos	START	1709181747517
+REQUEST		débitos	1709181747517	1709181747525	OK	 
+USER	débitos	END	1709181747525
+REQUEST		créditos	1709181747517	1709181747526	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747535
+USER	débitos	START	1709181747542
+REQUEST		débitos	1709181747542	1709181747550	OK	 
+USER	débitos	END	1709181747550
+USER	débitos	START	1709181747567
+USER	créditos	START	1709181747568
+REQUEST		débitos	1709181747566	1709181747575	OK	 
+USER	débitos	END	1709181747575
+REQUEST		créditos	1709181747567	1709181747575	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747576
+USER	débitos	START	1709181747592
+REQUEST		débitos	1709181747591	1709181747599	OK	 
+USER	débitos	END	1709181747600
+USER	débitos	START	1709181747617
+USER	créditos	START	1709181747617
+REQUEST		débitos	1709181747617	1709181747624	OK	 
+USER	débitos	END	1709181747624
+REQUEST		créditos	1709181747617	1709181747625	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747626
+USER	débitos	START	1709181747642
+REQUEST		débitos	1709181747641	1709181747649	OK	 
+USER	débitos	END	1709181747650
+USER	débitos	START	1709181747667
+USER	créditos	START	1709181747667
+REQUEST		débitos	1709181747667	1709181747674	OK	 
+USER	débitos	END	1709181747675
+REQUEST		créditos	1709181747667	1709181747676	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747677
+USER	débitos	START	1709181747692
+REQUEST		débitos	1709181747691	1709181747703	OK	 
+USER	débitos	END	1709181747703
+USER	débitos	START	1709181747717
+USER	créditos	START	1709181747718
+REQUEST		débitos	1709181747716	1709181747725	OK	 
+USER	débitos	END	1709181747725
+REQUEST		créditos	1709181747717	1709181747724	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747726
+USER	extratos	START	1709181747734
+REQUEST		extratos	1709181747733	1709181747741	OK	 
+USER	débitos	START	1709181747742
+USER	extratos	END	1709181747742
+REQUEST		débitos	1709181747741	1709181747749	OK	 
+USER	débitos	END	1709181747749
+USER	débitos	START	1709181747767
+USER	créditos	START	1709181747767
+REQUEST		débitos	1709181747766	1709181747774	OK	 
+USER	débitos	END	1709181747774
+REQUEST		créditos	1709181747767	1709181747775	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747776
+USER	débitos	START	1709181747792
+REQUEST		débitos	1709181747791	1709181747799	OK	 
+USER	débitos	END	1709181747799
+USER	débitos	START	1709181747817
+USER	créditos	START	1709181747818
+REQUEST		débitos	1709181747817	1709181747825	OK	 
+USER	débitos	END	1709181747825
+REQUEST		créditos	1709181747818	1709181747826	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747827
+USER	débitos	START	1709181747842
+REQUEST		débitos	1709181747842	1709181747851	OK	 
+USER	débitos	END	1709181747852
+USER	créditos	START	1709181747867
+USER	débitos	START	1709181747867
+REQUEST		débitos	1709181747867	1709181747875	OK	 
+USER	débitos	END	1709181747876
+REQUEST		créditos	1709181747867	1709181747875	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747877
+USER	débitos	START	1709181747892
+REQUEST		débitos	1709181747892	1709181747900	OK	 
+USER	débitos	END	1709181747900
+USER	débitos	START	1709181747917
+USER	créditos	START	1709181747917
+REQUEST		débitos	1709181747917	1709181747926	OK	 
+USER	débitos	END	1709181747926
+REQUEST		créditos	1709181747917	1709181747925	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747927
+USER	débitos	START	1709181747942
+REQUEST		débitos	1709181747942	1709181747950	OK	 
+USER	débitos	END	1709181747950
+USER	débitos	START	1709181747967
+USER	créditos	START	1709181747967
+REQUEST		débitos	1709181747967	1709181747974	OK	 
+USER	débitos	END	1709181747975
+REQUEST		créditos	1709181747967	1709181747974	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181747976
+USER	débitos	START	1709181747992
+REQUEST		débitos	1709181747992	1709181748001	OK	 
+USER	débitos	END	1709181748002
+USER	créditos	START	1709181748017
+USER	débitos	START	1709181748017
+REQUEST		débitos	1709181748017	1709181748025	OK	 
+USER	débitos	END	1709181748026
+REQUEST		créditos	1709181748017	1709181748025	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748027
+USER	débitos	START	1709181748043
+REQUEST		débitos	1709181748042	1709181748050	OK	 
+USER	débitos	END	1709181748051
+USER	débitos	START	1709181748067
+USER	créditos	START	1709181748067
+USER	extratos	START	1709181748068
+REQUEST		débitos	1709181748067	1709181748074	OK	 
+USER	débitos	END	1709181748075
+REQUEST		extratos	1709181748067	1709181748074	OK	 
+USER	extratos	END	1709181748075
+REQUEST		créditos	1709181748067	1709181748075	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748076
+USER	débitos	START	1709181748090
+REQUEST		débitos	1709181748090	1709181748097	OK	 
+USER	débitos	END	1709181748098
+USER	créditos	START	1709181748112
+USER	débitos	START	1709181748114
+REQUEST		créditos	1709181748111	1709181748120	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748122
+REQUEST		débitos	1709181748114	1709181748122	OK	 
+USER	débitos	END	1709181748123
+USER	débitos	START	1709181748138
+REQUEST		débitos	1709181748138	1709181748145	OK	 
+USER	débitos	END	1709181748146
+USER	créditos	START	1709181748156
+USER	débitos	START	1709181748162
+REQUEST		créditos	1709181748156	1709181748164	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748166
+REQUEST		débitos	1709181748162	1709181748170	OK	 
+USER	débitos	END	1709181748170
+USER	débitos	START	1709181748186
+REQUEST		débitos	1709181748186	1709181748194	OK	 
+USER	débitos	END	1709181748194
+USER	créditos	START	1709181748203
+USER	débitos	START	1709181748209
+REQUEST		créditos	1709181748202	1709181748209	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748211
+REQUEST		débitos	1709181748209	1709181748217	OK	 
+USER	débitos	END	1709181748217
+USER	débitos	START	1709181748233
+REQUEST		débitos	1709181748233	1709181748240	OK	 
+USER	débitos	END	1709181748241
+USER	créditos	START	1709181748247
+REQUEST		créditos	1709181748247	1709181748255	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748257
+USER	débitos	START	1709181748257
+REQUEST		débitos	1709181748257	1709181748265	OK	 
+USER	débitos	END	1709181748265
+USER	débitos	START	1709181748281
+REQUEST		débitos	1709181748281	1709181748288	OK	 
+USER	débitos	END	1709181748289
+USER	créditos	START	1709181748293
+REQUEST		créditos	1709181748293	1709181748301	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748303
+USER	débitos	START	1709181748305
+REQUEST		débitos	1709181748305	1709181748312	OK	 
+USER	débitos	END	1709181748312
+USER	débitos	START	1709181748328
+REQUEST		débitos	1709181748328	1709181748335	OK	 
+USER	débitos	END	1709181748336
+USER	créditos	START	1709181748339
+REQUEST		créditos	1709181748338	1709181748346	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748348
+USER	débitos	START	1709181748352
+REQUEST		débitos	1709181748352	1709181748359	OK	 
+USER	débitos	END	1709181748360
+USER	débitos	START	1709181748376
+REQUEST		débitos	1709181748376	1709181748383	OK	 
+USER	débitos	END	1709181748384
+USER	créditos	START	1709181748385
+REQUEST		créditos	1709181748384	1709181748392	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748393
+USER	débitos	START	1709181748401
+REQUEST		débitos	1709181748400	1709181748408	OK	 
+USER	débitos	END	1709181748408
+USER	débitos	START	1709181748424
+USER	créditos	START	1709181748430
+REQUEST		débitos	1709181748424	1709181748431	OK	 
+USER	débitos	END	1709181748432
+REQUEST		créditos	1709181748429	1709181748437	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748438
+USER	débitos	START	1709181748448
+REQUEST		débitos	1709181748447	1709181748455	OK	 
+USER	débitos	END	1709181748455
+USER	débitos	START	1709181748471
+USER	créditos	START	1709181748476
+REQUEST		débitos	1709181748471	1709181748479	OK	 
+USER	débitos	END	1709181748479
+REQUEST		créditos	1709181748475	1709181748483	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748485
+USER	débitos	START	1709181748495
+REQUEST		débitos	1709181748495	1709181748502	OK	 
+USER	débitos	END	1709181748503
+USER	débitos	START	1709181748519
+USER	créditos	START	1709181748521
+REQUEST		débitos	1709181748519	1709181748527	OK	 
+USER	débitos	END	1709181748528
+REQUEST		créditos	1709181748520	1709181748528	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748530
+USER	débitos	START	1709181748543
+REQUEST		débitos	1709181748543	1709181748551	OK	 
+USER	débitos	END	1709181748551
+USER	créditos	START	1709181748567
+USER	extratos	START	1709181748567
+USER	débitos	START	1709181748567
+REQUEST		extratos	1709181748566	1709181748573	OK	 
+REQUEST		débitos	1709181748567	1709181748574	OK	 
+USER	extratos	END	1709181748574
+USER	débitos	END	1709181748574
+REQUEST		créditos	1709181748566	1709181748574	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748576
+USER	débitos	START	1709181748590
+REQUEST		débitos	1709181748590	1709181748598	OK	 
+USER	débitos	END	1709181748598
+USER	créditos	START	1709181748612
+USER	débitos	START	1709181748614
+REQUEST		créditos	1709181748612	1709181748619	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748621
+REQUEST		débitos	1709181748614	1709181748622	OK	 
+USER	débitos	END	1709181748622
+USER	débitos	START	1709181748638
+REQUEST		débitos	1709181748638	1709181748646	OK	 
+USER	débitos	END	1709181748647
+USER	créditos	START	1709181748657
+USER	débitos	START	1709181748662
+REQUEST		créditos	1709181748656	1709181748664	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748666
+REQUEST		débitos	1709181748662	1709181748670	OK	 
+USER	débitos	END	1709181748670
+USER	débitos	START	1709181748686
+REQUEST		débitos	1709181748686	1709181748693	OK	 
+USER	débitos	END	1709181748694
+USER	créditos	START	1709181748703
+USER	débitos	START	1709181748709
+REQUEST		créditos	1709181748702	1709181748710	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748712
+REQUEST		débitos	1709181748709	1709181748717	OK	 
+USER	débitos	END	1709181748717
+USER	débitos	START	1709181748733
+REQUEST		débitos	1709181748733	1709181748741	OK	 
+USER	débitos	END	1709181748741
+USER	créditos	START	1709181748748
+REQUEST		créditos	1709181748748	1709181748755	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748757
+USER	débitos	START	1709181748757
+REQUEST		débitos	1709181748757	1709181748765	OK	 
+USER	débitos	END	1709181748766
+USER	débitos	START	1709181748781
+REQUEST		débitos	1709181748781	1709181748789	OK	 
+USER	débitos	END	1709181748790
+USER	créditos	START	1709181748794
+REQUEST		créditos	1709181748794	1709181748801	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748802
+USER	débitos	START	1709181748805
+REQUEST		débitos	1709181748805	1709181748813	OK	 
+USER	débitos	END	1709181748813
+USER	débitos	START	1709181748828
+REQUEST		débitos	1709181748828	1709181748835	OK	 
+USER	débitos	END	1709181748836
+USER	créditos	START	1709181748839
+REQUEST		créditos	1709181748839	1709181748847	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748849
+USER	débitos	START	1709181748852
+REQUEST		débitos	1709181748852	1709181748859	OK	 
+USER	débitos	END	1709181748860
+USER	débitos	START	1709181748876
+REQUEST		débitos	1709181748876	1709181748884	OK	 
+USER	débitos	END	1709181748885
+USER	créditos	START	1709181748885
+REQUEST		créditos	1709181748885	1709181748893	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748894
+USER	débitos	START	1709181748900
+REQUEST		débitos	1709181748900	1709181748909	OK	 
+USER	débitos	END	1709181748910
+USER	débitos	START	1709181748924
+USER	créditos	START	1709181748930
+REQUEST		débitos	1709181748924	1709181748933	OK	 
+USER	débitos	END	1709181748933
+REQUEST		créditos	1709181748930	1709181748938	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748940
+USER	débitos	START	1709181748947
+REQUEST		débitos	1709181748947	1709181748968	OK	 
+USER	débitos	END	1709181748968
+USER	débitos	START	1709181748972
+USER	créditos	START	1709181748976
+REQUEST		créditos	1709181748975	1709181748983	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181748985
+USER	débitos	START	1709181748996
+REQUEST		débitos	1709181748971	1709181748998	OK	 
+USER	débitos	END	1709181748999
+REQUEST		débitos	1709181748995	1709181749003	OK	 
+USER	débitos	END	1709181749004
+USER	débitos	START	1709181749020
+USER	créditos	START	1709181749021
+REQUEST		créditos	1709181749020	1709181749028	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749029
+USER	débitos	START	1709181749044
+REQUEST		débitos	1709181749019	1709181749064	OK	 
+USER	débitos	END	1709181749065
+USER	débitos	START	1709181749067
+USER	créditos	START	1709181749067
+USER	extratos	START	1709181749067
+REQUEST		débitos	1709181749044	1709181749068	OK	 
+USER	débitos	END	1709181749068
+REQUEST		débitos	1709181749066	1709181749075	OK	 
+REQUEST		extratos	1709181749067	1709181749074	OK	 
+USER	débitos	END	1709181749075
+USER	extratos	END	1709181749075
+REQUEST		créditos	1709181749066	1709181749075	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749076
+USER	débitos	START	1709181749089
+REQUEST		débitos	1709181749089	1709181749096	OK	 
+USER	débitos	END	1709181749096
+USER	débitos	START	1709181749112
+USER	créditos	START	1709181749112
+REQUEST		débitos	1709181749111	1709181749119	OK	 
+USER	débitos	END	1709181749120
+USER	débitos	START	1709181749135
+REQUEST		débitos	1709181749134	1709181749142	OK	 
+USER	débitos	END	1709181749142
+USER	débitos	START	1709181749157
+USER	créditos	START	1709181749157
+REQUEST		créditos	1709181749112	1709181749163	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749164
+REQUEST		débitos	1709181749157	1709181749165	OK	 
+USER	débitos	END	1709181749165
+REQUEST		créditos	1709181749157	1709181749165	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749167
+USER	débitos	START	1709181749180
+REQUEST		débitos	1709181749179	1709181749187	OK	 
+USER	débitos	END	1709181749188
+USER	débitos	START	1709181749203
+USER	créditos	START	1709181749203
+REQUEST		débitos	1709181749203	1709181749210	OK	 
+USER	débitos	END	1709181749211
+REQUEST		créditos	1709181749203	1709181749210	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749212
+USER	débitos	START	1709181749226
+REQUEST		débitos	1709181749226	1709181749233	OK	 
+USER	débitos	END	1709181749234
+USER	débitos	START	1709181749248
+USER	créditos	START	1709181749248
+REQUEST		débitos	1709181749248	1709181749256	OK	 
+USER	débitos	END	1709181749256
+REQUEST		créditos	1709181749248	1709181749256	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749257
+USER	débitos	START	1709181749271
+REQUEST		débitos	1709181749271	1709181749278	OK	 
+USER	débitos	END	1709181749278
+USER	débitos	START	1709181749294
+USER	créditos	START	1709181749294
+REQUEST		débitos	1709181749294	1709181749301	OK	 
+USER	débitos	END	1709181749302
+REQUEST		créditos	1709181749294	1709181749306	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749307
+USER	débitos	START	1709181749317
+REQUEST		débitos	1709181749317	1709181749324	OK	 
+USER	débitos	END	1709181749324
+USER	débitos	START	1709181749339
+USER	créditos	START	1709181749339
+REQUEST		débitos	1709181749339	1709181749346	OK	 
+USER	débitos	END	1709181749346
+REQUEST		créditos	1709181749339	1709181749350	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749352
+USER	débitos	START	1709181749362
+REQUEST		débitos	1709181749362	1709181749369	OK	 
+USER	débitos	END	1709181749369
+USER	débitos	START	1709181749385
+USER	créditos	START	1709181749385
+REQUEST		débitos	1709181749385	1709181749393	OK	 
+USER	débitos	END	1709181749393
+REQUEST		créditos	1709181749385	1709181749393	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749394
+USER	extratos	START	1709181749400
+REQUEST		extratos	1709181749400	1709181749406	OK	 
+USER	extratos	END	1709181749407
+USER	débitos	START	1709181749407
+REQUEST		débitos	1709181749407	1709181749414	OK	 
+USER	débitos	END	1709181749415
+USER	débitos	START	1709181749430
+USER	créditos	START	1709181749431
+REQUEST		débitos	1709181749430	1709181749437	OK	 
+USER	débitos	END	1709181749438
+REQUEST		créditos	1709181749430	1709181749437	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749439
+USER	débitos	START	1709181749453
+REQUEST		débitos	1709181749453	1709181749460	OK	 
+USER	débitos	END	1709181749461
+USER	débitos	START	1709181749476
+USER	créditos	START	1709181749476
+REQUEST		débitos	1709181749476	1709181749483	OK	 
+USER	débitos	END	1709181749484
+REQUEST		créditos	1709181749476	1709181749483	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749485
+USER	débitos	START	1709181749498
+REQUEST		débitos	1709181749498	1709181749505	OK	 
+USER	débitos	END	1709181749506
+USER	débitos	START	1709181749521
+USER	créditos	START	1709181749522
+REQUEST		débitos	1709181749521	1709181749528	OK	 
+USER	débitos	END	1709181749528
+REQUEST		créditos	1709181749521	1709181749529	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749530
+USER	débitos	START	1709181749544
+REQUEST		débitos	1709181749544	1709181749553	OK	 
+USER	débitos	END	1709181749553
+USER	débitos	START	1709181749567
+USER	créditos	START	1709181749568
+REQUEST		débitos	1709181749567	1709181749575	OK	 
+USER	débitos	END	1709181749575
+REQUEST		créditos	1709181749567	1709181749575	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749576
+USER	débitos	START	1709181749589
+REQUEST		débitos	1709181749589	1709181749596	OK	 
+USER	débitos	END	1709181749596
+USER	débitos	START	1709181749612
+USER	créditos	START	1709181749612
+REQUEST		débitos	1709181749612	1709181749620	OK	 
+USER	débitos	END	1709181749620
+REQUEST		créditos	1709181749612	1709181749620	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749621
+USER	débitos	START	1709181749635
+REQUEST		débitos	1709181749635	1709181749643	OK	 
+USER	débitos	END	1709181749643
+USER	débitos	START	1709181749657
+USER	créditos	START	1709181749658
+REQUEST		débitos	1709181749657	1709181749665	OK	 
+USER	débitos	END	1709181749665
+REQUEST		créditos	1709181749657	1709181749665	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749666
+USER	débitos	START	1709181749680
+REQUEST		débitos	1709181749680	1709181749687	OK	 
+USER	débitos	END	1709181749687
+USER	débitos	START	1709181749703
+USER	créditos	START	1709181749704
+REQUEST		débitos	1709181749703	1709181749710	OK	 
+USER	débitos	END	1709181749710
+REQUEST		créditos	1709181749703	1709181749710	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749712
+USER	débitos	START	1709181749726
+USER	extratos	START	1709181749733
+REQUEST		débitos	1709181749726	1709181749733	OK	 
+USER	débitos	END	1709181749733
+REQUEST		extratos	1709181749733	1709181749741	OK	 
+USER	extratos	END	1709181749742
+USER	débitos	START	1709181749748
+USER	créditos	START	1709181749749
+REQUEST		débitos	1709181749748	1709181749756	OK	 
+USER	débitos	END	1709181749756
+REQUEST		créditos	1709181749748	1709181749757	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749759
+USER	débitos	START	1709181749771
+REQUEST		débitos	1709181749771	1709181749779	OK	 
+USER	débitos	END	1709181749779
+USER	débitos	START	1709181749794
+USER	créditos	START	1709181749795
+REQUEST		débitos	1709181749794	1709181749802	OK	 
+USER	débitos	END	1709181749802
+REQUEST		créditos	1709181749794	1709181749803	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749805
+USER	débitos	START	1709181749817
+USER	débitos	START	1709181749839
+USER	créditos	START	1709181749840
+REQUEST		débitos	1709181749839	1709181749846	OK	 
+USER	débitos	END	1709181749847
+USER	débitos	START	1709181749862
+REQUEST		débitos	1709181749817	1709181749868	OK	 
+USER	débitos	END	1709181749868
+REQUEST		créditos	1709181749840	1709181749868	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749869
+REQUEST		débitos	1709181749862	1709181749870	OK	 
+USER	débitos	END	1709181749870
+USER	débitos	START	1709181749885
+USER	créditos	START	1709181749886
+REQUEST		débitos	1709181749885	1709181749893	OK	 
+USER	débitos	END	1709181749894
+REQUEST		créditos	1709181749886	1709181749893	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749895
+USER	débitos	START	1709181749907
+USER	débitos	START	1709181749931
+USER	créditos	START	1709181749931
+REQUEST		créditos	1709181749931	1709181749938	KO	j.u.NoSuchElementException: No attribute named 'limite' is defined
+USER	créditos	END	1709181749940
+USER	débitos	START	1709181749953
+REQUEST		débitos	1709181749953	1709181749961	OK	 
+USER	débitos	END	1709181749962
+REQUEST		débitos	1709181749907	1709181749967	OK	 
+REQUEST		débitos	1709181749930	1709181749967	OK	 
+USER	débitos	END	1709181749968
+USER	débitos	END	1709181749968
+USER	débitos	START	1709181749976
+USER	créditos	START	1709181749976
+REQUEST		débitos	1709181749976	1709181749984	OK	 
+USER	débitos	END	1709181749984
+REQUEST		créditos	1709181749976	1709181749984	KO	

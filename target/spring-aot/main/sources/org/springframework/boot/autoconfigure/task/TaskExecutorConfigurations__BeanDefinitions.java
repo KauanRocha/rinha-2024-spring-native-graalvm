@@ -9,7 +9,7 @@ import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder;
 import org.springframework.boot.task.TaskExecutorBuilder;
 import org.springframework.boot.task.ThreadPoolTaskExecutorBuilder;
-import org.springframework.core.task.SimpleAsyncTaskExecutor;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 /**
  * Bean definitions for {@link TaskExecutorConfigurations}.
@@ -68,18 +68,19 @@ public class TaskExecutorConfigurations__BeanDefinitions {
     /**
      * Get the bean instance supplier for 'applicationTaskExecutor'.
      */
-    private static BeanInstanceSupplier<SimpleAsyncTaskExecutor> getApplicationTaskExecutorInstanceSupplier(
+    @SuppressWarnings("removal")
+    private static BeanInstanceSupplier<ThreadPoolTaskExecutor> getApplicationTaskExecutorInstanceSupplier(
         ) {
-      return BeanInstanceSupplier.<SimpleAsyncTaskExecutor>forFactoryMethod(TaskExecutorConfigurations.TaskExecutorConfiguration.class, "applicationTaskExecutorVirtualThreads", SimpleAsyncTaskExecutorBuilder.class)
-              .withGenerator((registeredBean, args) -> registeredBean.getBeanFactory().getBean(TaskExecutorConfigurations.TaskExecutorConfiguration.class).applicationTaskExecutorVirtualThreads(args.get(0)));
+      return BeanInstanceSupplier.<ThreadPoolTaskExecutor>forFactoryMethod(TaskExecutorConfigurations.TaskExecutorConfiguration.class, "applicationTaskExecutor", TaskExecutorBuilder.class, ObjectProvider.class)
+              .withGenerator((registeredBean, args) -> registeredBean.getBeanFactory().getBean(TaskExecutorConfigurations.TaskExecutorConfiguration.class).applicationTaskExecutor(args.get(0), args.get(1)));
     }
 
     /**
      * Get the bean definition for 'applicationTaskExecutor'.
      */
     public static BeanDefinition getApplicationTaskExecutorBeanDefinition() {
-      RootBeanDefinition beanDefinition = new RootBeanDefinition(SimpleAsyncTaskExecutor.class);
-      beanDefinition.setDestroyMethodNames("close");
+      RootBeanDefinition beanDefinition = new RootBeanDefinition(ThreadPoolTaskExecutor.class);
+      beanDefinition.setLazyInit(true);
       beanDefinition.setInstanceSupplier(getApplicationTaskExecutorInstanceSupplier());
       return beanDefinition;
     }
@@ -146,8 +147,8 @@ public class TaskExecutorConfigurations__BeanDefinitions {
      */
     private static BeanInstanceSupplier<SimpleAsyncTaskExecutorBuilder> getSimpleAsyncTaskExecutorBuilderInstanceSupplier(
         ) {
-      return BeanInstanceSupplier.<SimpleAsyncTaskExecutorBuilder>forFactoryMethod(TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration.class, "simpleAsyncTaskExecutorBuilderVirtualThreads")
-              .withGenerator((registeredBean) -> registeredBean.getBeanFactory().getBean(TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration.class).simpleAsyncTaskExecutorBuilderVirtualThreads());
+      return BeanInstanceSupplier.<SimpleAsyncTaskExecutorBuilder>forFactoryMethod(TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration.class, "simpleAsyncTaskExecutorBuilder")
+              .withGenerator((registeredBean) -> registeredBean.getBeanFactory().getBean(TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration.class).simpleAsyncTaskExecutorBuilder());
     }
 
     /**

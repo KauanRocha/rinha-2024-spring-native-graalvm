@@ -40,7 +40,7 @@ services:
           memory: 10M
 
   app1:
-    build: .
+    image: api-backend-native
     ports:
       - "8001:8080"
     environment:
@@ -56,7 +56,7 @@ services:
           memory: 195M
 
   app2:
-    build: .
+    image: api-backend-native
     ports:
       - "8002:8080"
     environment:

@@ -1,14 +1,9 @@
-server:
-  port: 8080
-  compression:
-    enabled: true
 spring:
   application:
-    server:
     name: java-is-goat
   threads:
     virtual:
-      enabled: true
+      enabled: ${VIRTUAL_THREADS_ENABLED:true}
   datasource:
     url: jdbc:postgresql://db/rinha
     username: postgres
@@ -17,3 +12,26 @@ spring:
     hibernate:
       ddl-auto: none
       show-sql: false
+
+server:
+  tomcat:
+    connection-timeout: ${SERVER_HTTP_CONN_TIMEOUT:500}
+    threads:
+      max: ${SERVER_MAX_THREADS:50}
+    max-connections: ${SERVER_MAX_CONNECTIONS:180}
+  port: ${SERVER_PORT:8080}
+  compression:
+    enabled: true
+
+database:
+  pool:
+    max-pool-size: ${DB_POOL_MAX_POOL:10}
+    min-idle: ${DB_MIN_IDLE:1}
+    idle-timeout: ${DB_IDLE_TIMEOUT:30000}
+    max-lifetime: ${DB_POOL_MAX_LIFETIME:200000}
+    connection-timeout: ${DB_CONNECTION_TIMEOUT:1000}
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://${DB_HOST:localhost}:5432/${DB_DATABASE:db_financial}
+  connection-test-query: select 1 + 1
+  username: ${DB_USER:admin}
+  password: ${DB_PASSWORD:admin}

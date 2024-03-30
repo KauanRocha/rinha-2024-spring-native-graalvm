@@ -111,8 +111,8 @@ public class TaskSchedulingConfigurations__BeanDefinitions {
      */
     private static BeanInstanceSupplier<SimpleAsyncTaskSchedulerBuilder> getSimpleAsyncTaskSchedulerBuilderInstanceSupplier(
         ) {
-      return BeanInstanceSupplier.<SimpleAsyncTaskSchedulerBuilder>forFactoryMethod(TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration.class, "simpleAsyncTaskSchedulerBuilder")
-              .withGenerator((registeredBean) -> registeredBean.getBeanFactory().getBean(TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration.class).simpleAsyncTaskSchedulerBuilder());
+      return BeanInstanceSupplier.<SimpleAsyncTaskSchedulerBuilder>forFactoryMethod(TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration.class, "simpleAsyncTaskSchedulerBuilderVirtualThreads")
+              .withGenerator((registeredBean) -> registeredBean.getBeanFactory().getBean(TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration.class).simpleAsyncTaskSchedulerBuilderVirtualThreads());
     }
 
     /**

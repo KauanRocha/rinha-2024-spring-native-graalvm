@@ -53,5 +53,23 @@ public class EmbeddedWebServerFactoryCustomizerAutoConfiguration__BeanDefinition
       beanDefinition.setInstanceSupplier(getTomcatWebServerFactoryCustomizerInstanceSupplier());
       return beanDefinition;
     }
+
+    /**
+     * Get the bean instance supplier for 'tomcatVirtualThreadsProtocolHandlerCustomizer'.
+     */
+    private static BeanInstanceSupplier<TomcatVirtualThreadsWebServerFactoryCustomizer> getTomcatVirtualThreadsProtocolHandlerCustomizerInstanceSupplier(
+        ) {
+      return BeanInstanceSupplier.<TomcatVirtualThreadsWebServerFactoryCustomizer>forFactoryMethod(EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration.class, "tomcatVirtualThreadsProtocolHandlerCustomizer")
+              .withGenerator((registeredBean) -> registeredBean.getBeanFactory().getBean(EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration.class).tomcatVirtualThreadsProtocolHandlerCustomizer());
+    }
+
+    /**
+     * Get the bean definition for 'tomcatVirtualThreadsProtocolHandlerCustomizer'.
+     */
+    public static BeanDefinition getTomcatVirtualThreadsProtocolHandlerCustomizerBeanDefinition() {
+      RootBeanDefinition beanDefinition = new RootBeanDefinition(TomcatVirtualThreadsWebServerFactoryCustomizer.class);
+      beanDefinition.setInstanceSupplier(getTomcatVirtualThreadsProtocolHandlerCustomizerInstanceSupplier());
+      return beanDefinition;
+    }
   }
 }

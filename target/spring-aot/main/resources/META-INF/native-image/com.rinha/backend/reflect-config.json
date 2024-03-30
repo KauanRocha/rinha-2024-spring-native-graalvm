@@ -717,6 +717,15 @@
     ]
   },
   {
+    "name": "java.lang.AutoCloseable",
+    "methods": [
+      {
+        "name": "close",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
     "name": "java.lang.Enum",
     "methods": [
       {
@@ -783,10 +792,6 @@
   },
   {
     "name": "java.util.concurrent.Executor",
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "java.util.concurrent.ThreadFactory",
     "queryAllPublicMethods": true
   },
   {
@@ -2919,7 +2924,7 @@
         ]
       },
       {
-        "name": "simpleAsyncTaskExecutorBuilder",
+        "name": "simpleAsyncTaskExecutorBuilderVirtualThreads",
         "parameterTypes": [ ]
       }
     ]
@@ -2953,10 +2958,9 @@
         "parameterTypes": [ ]
       },
       {
-        "name": "applicationTaskExecutor",
+        "name": "applicationTaskExecutorVirtualThreads",
         "parameterTypes": [
-          "org.springframework.boot.task.TaskExecutorBuilder",
-          "org.springframework.beans.factory.ObjectProvider"
+          "org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder"
         ]
       }
     ]
@@ -3005,7 +3009,7 @@
         ]
       },
       {
-        "name": "simpleAsyncTaskSchedulerBuilder",
+        "name": "simpleAsyncTaskSchedulerBuilderVirtualThreads",
         "parameterTypes": [ ]
       }
     ]
@@ -3378,6 +3382,10 @@
         "parameterTypes": [ ]
       },
       {
+        "name": "tomcatVirtualThreadsProtocolHandlerCustomizer",
+        "parameterTypes": [ ]
+      },
+      {
         "name": "tomcatWebServerFactoryCustomizer",
         "parameterTypes": [
           "org.springframework.core.env.Environment",
@@ -3385,6 +3393,11 @@
         ]
       }
     ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.web.embedded.TomcatVirtualThreadsWebServerFactoryCustomizer",
+    "queryAllPublicMethods": true,
+    "queryAllDeclaredMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer",
@@ -7341,15 +7354,7 @@
     "queryAllPublicMethods": true
   },
   {
-    "name": "org.springframework.context.Phased",
-    "queryAllPublicMethods": true
-  },
-  {
     "name": "org.springframework.context.ResourceLoaderAware",
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "org.springframework.context.SmartLifecycle",
     "queryAllPublicMethods": true
   },
   {
@@ -7401,6 +7406,17 @@
   {
     "name": "org.springframework.core.task.AsyncTaskExecutor",
     "queryAllPublicMethods": true
+  },
+  {
+    "name": "org.springframework.core.task.SimpleAsyncTaskExecutor",
+    "queryAllPublicMethods": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "close",
+        "parameterTypes": [ ]
+      }
+    ]
   },
   {
     "name": "org.springframework.core.task.TaskExecutor",
@@ -7980,15 +7996,6 @@
   {
     "name": "org.springframework.jdbc.datasource.SimpleDriverDataSource",
     "allPublicConstructors": true
-  },
-  {
-    "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
-    "queryAllPublicMethods": true,
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.scheduling.SchedulingTaskExecutor",
-    "queryAllPublicMethods": true
   },
   {
     "name": "org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration",

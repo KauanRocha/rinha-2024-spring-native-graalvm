@@ -41,7 +41,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Clone este repositório.
 2. Execute `./mvnw -Pnative native:compile` para compilar o projeto.
 3. Execute `docker build -t api-backend-native .` para construir a imagem Docker.
-4. Execute o projeto como manda a documentacao da rinha.
+4. Execute `docker-compose up -d` para subir os containers Docker necessários.
+5. Execute os ttestes como manda a documentacao da rinha.
 
 ## Contribuindo
 

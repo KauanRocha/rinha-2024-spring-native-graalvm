@@ -1,3 +1,4 @@
+-- Instruções para criação de tabelas e inserção de dados
 CREATE TABLE IF NOT EXISTS clientes (
     id SERIAL PRIMARY KEY,
     limite INTEGER NOT NULL,
@@ -10,6 +11,7 @@ INSERT INTO clientes (limite, saldo) VALUES
     (10000000, 0),
     (500000, 0)
 ON CONFLICT DO NOTHING;
+
 CREATE TABLE IF NOT EXISTS transacoes (
     id SERIAL PRIMARY KEY,
     valor INTEGER NOT NULL,
@@ -19,5 +21,10 @@ CREATE TABLE IF NOT EXISTS transacoes (
     cliente_id INTEGER NOT NULL,
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
+
 CREATE INDEX IF NOT EXISTS idx_cliente_id ON transacoes (cliente_id);
-CREATE INDEX IF NOT EXISTS idx_cliente_id_id ON transacoes (cliente_id, id);
+CREATE INDEX IF NOT EXISTS idx_ultimas_transacoes_cliente
+ON transacoes (cliente_id, id DESC)
+LIMIT 10;
+
+GRANT ALL PRIVILEGES ON DATABASE rinha TO postgres;

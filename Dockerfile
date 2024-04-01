@@ -1,5 +1,4 @@
-FROM ghcr.io/graalvm/native-image-community:22-muslib
-
+FROM container-registry.oracle.com/os/oraclelinux:9-slim
 WORKDIR /app
-COPY target/backend-0.0.1-SNAPSHOT.jar .
-ENTRYPOINT ["java", "-jar", "backend-0.0.1-SNAPSHOT.jar"]
+COPY /target/backend rinha
+ENTRYPOINT ["/app/rinha"]

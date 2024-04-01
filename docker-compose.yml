@@ -1,6 +1,6 @@
 version: '3.5'
 services:
-  postgres: ### Banco de dados
+  postgres:
     image: postgres:latest
     hostname: db
     container_name: postgres
@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: rinha
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-    command: postgres -c max_connections=200 -c shared_buffers=100MB -c synchronous_commit=off -c fsync=off -c full_page_writes=off
+    command: postgres -c max_connections=200 -c -c synchronous_commit=off -c fsync=off -c full_page_writes=off
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready" ]
       interval: 5s
@@ -32,12 +32,10 @@ services:
     environment:
       - VIRTUAL_THREADS_ENABLED=true
       - SERVER_HTTP_CONN_TIMEOUT=500
-      - SERVER_MAX_THREADS=50
-      - SERVER_MAX_CONNECTIONS=200
-      - DB_MIN_IDLE=1
-      - DB_POOL_MAX_POOL=10
+      - SERVER_MAX_THREADS=100
+      - SERVER_MAX_CONNECTIONS=300
+      - DB_POOL_MAX_POOL=20
       - DB_IDLE_TIMEOUT=30000
-      - DB_POOL_MAX_LIFETIME=2000000
       - DB_CONNECTION_TIMEOUT=1000
       - DB_HOST=localhost
       - DB_DATABASE=rinha
@@ -45,7 +43,7 @@ services:
       - DB_PASSWORD=postgres
       - SERVER_PORT=30001
     ports:
-      - "30001:30001"
+      - "8080:8081"
     depends_on:
       - postgres
     deploy:
@@ -62,7 +60,7 @@ services:
       - VIRTUAL_THREADS_ENABLED=true
       - SERVER_HTTP_CONN_TIMEOUT=500
       - SERVER_MAX_THREADS=50
-      - SERVER_MAX_CONNECTIONS=200
+      - SERVER_MAX_CONNECTIONS=30
       - DB_MIN_IDLE=1
       - DB_POOL_MAX_POOL=10
       - DB_IDLE_TIMEOUT=30000
@@ -74,7 +72,7 @@ services:
       - DB_PASSWORD=postgres
       - SERVER_PORT=30002
     ports:
-      - "30002:30002"
+      - "8080:8080"
 
   nginx:
     image: nginx:latest

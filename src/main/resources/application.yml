@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: java-is-goat
+  threads:
+    virtual:
+      enabled: ${VIRTUAL_THREADS_ENABLED:true}
+  datasource:
+    hikari:
+      maximum-pool-size: ${DB_POOL_MAX_POOL:10}
+      idle-timeout: ${DB_IDLE_TIMEOUT:30000}
+      connection-timeout: ${DB_CONNECTION_TIMEOUT:1000}
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/${DB_DATABASE:rinha}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+  jpa:
+    open-in-view: false
+
+server:
+  port: ${SERVER_PORT:8080}
+  compression:
+    enabled: true
+  tomcat:
+    connection-timeout: ${SERVER_HTTP_CONN_TIMEOUT:500}
+    threads:
+      max: ${SERVER_MAX_THREADS:100}
+    max-connections: ${SERVER_MAX_CONNECTIONS:180}

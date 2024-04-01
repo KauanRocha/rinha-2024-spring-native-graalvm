@@ -21,5 +21,3 @@ CREATE TABLE IF NOT EXISTS transacoes (
 );
 CREATE INDEX IF NOT EXISTS idx_cliente_id ON transacoes (cliente_id);
 CREATE INDEX IF NOT EXISTS idx_cliente_id_id ON transacoes (cliente_id, id);
-
-grant all privileges on database db_financial to admin;

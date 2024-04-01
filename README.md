@@ -2,6 +2,9 @@
 
 Este é um repositório para o meu projeto incrível que utiliza tecnologias modernas para desenvolvimento e implantação, criado como parte do desafio da rinha de backend do primeiro trimestre de 2024.
 
+![image](https://github.com/KauanRocha/rinha-2024-spring-native-graalvm/assets/107556890/bbb5b803-c84e-4053-b36e-bcb04f52fad4)
+
+
 ## Tecnologias Utilizadas
 
 - ![Spring JDBC](https://img.shields.io/badge/Spring%20JDBC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)

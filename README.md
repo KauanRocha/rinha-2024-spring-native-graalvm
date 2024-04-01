@@ -36,10 +36,9 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ## Como Executar
 
 1. Clone este repositório.
-2. Execute `./mvnw clean package` para compilar o projeto.
-3. Execute `docker build -t meu-projeto .` para construir a imagem Docker.
-4. Execute `docker run -p 8080:8080 meu-projeto` para iniciar o contêiner Docker.
-5. Acesse `http://localhost:8080` no seu navegador para ver o projeto em execução.
+2. Execute `./mvnw -Pnative native:compile` para compilar o projeto.
+3. Execute `docker build -t api-backend-native .` para construir a imagem Docker.
+4. Execute o projeto como manda a documentacao da rinha.
 
 ## Contribuindo
 

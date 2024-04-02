@@ -23,8 +23,5 @@ CREATE TABLE IF NOT EXISTS transacoes (
 );
 
 CREATE INDEX IF NOT EXISTS idx_cliente_id ON transacoes (cliente_id);
-CREATE INDEX IF NOT EXISTS idx_ultimas_transacoes_cliente
-ON transacoes (cliente_id, id DESC)
-LIMIT 10;
 
 GRANT ALL PRIVILEGES ON DATABASE rinha TO postgres;

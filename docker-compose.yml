@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: rinha
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-    command: postgres -c max_connections=200 -c shared_buffers=100MB -c synchronous_commit=off -c fsync=off -c full_page_writes=off
+    command: postgres -c max_connections=200 -c shared_buffers=200MB -c synchronous_commit=off -c fsync=off -c full_page_writes=off
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready" ]
       interval: 5s
@@ -23,18 +23,18 @@ services:
       resources:
         limits:
           cpus: '0.70'
-          memory: 128MB
+          memory: 250MB
 
-  api01: &api
+  app3: &api
     image: api-backend-native
-    hostname: api01
-    container_name: api01
+    hostname: app3
+    container_name: app3
     environment:
       - VIRTUAL_THREADS_ENABLED=true
       - SERVER_HTTP_CONN_TIMEOUT=500
-      - SERVER_MAX_THREADS=100
-      - SERVER_MAX_CONNECTIONS=300
-      - DB_POOL_MAX_POOL=20
+      - SERVER_MAX_THREADS=50
+      - SERVER_MAX_CONNECTIONS=200
+      - DB_POOL_MAX_POOL=10
       - DB_IDLE_TIMEOUT=30000
       - DB_CONNECTION_TIMEOUT=1000
       - DB_HOST=postgres
@@ -43,7 +43,7 @@ services:
       - DB_PASSWORD=postgres
       - SERVER_PORT=8083
     ports:
-      - "8081:8080"
+      - "8083:8080"
     depends_on:
       postgres:
         condition: service_healthy
@@ -54,16 +54,16 @@ services:
           cpus: "0.30"
           memory: 128MB
 
-  api02:
+  app2:
     <<: *api
-    hostname: api02
-    container_name: api02
+    hostname: app2
+    container_name: app2
     environment:
       - VIRTUAL_THREADS_ENABLED=true
       - SERVER_HTTP_CONN_TIMEOUT=500
-      - SERVER_MAX_THREADS=100
-      - SERVER_MAX_CONNECTIONS=300
-      - DB_POOL_MAX_POOL=20
+      - SERVER_MAX_THREADS=50
+      - SERVER_MAX_CONNECTIONS=200
+      - DB_POOL_MAX_POOL=10
       - DB_IDLE_TIMEOUT=30000
       - DB_CONNECTION_TIMEOUT=1000
       - DB_HOST=postgres
@@ -72,7 +72,7 @@ services:
       - DB_PASSWORD=postgres
       - SERVER_PORT=8082
     ports:
-      - "8080:8080"
+      - "8082:8080"
 
   nginx:
     image: nginx:latest
@@ -81,17 +81,17 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
-      - api01
-      - api02
+      - app3
+      - app2
     ports:
       - "9999:9999"
     deploy:
       resources:
         limits:
           cpus: "0.20"
-          memory: 100MB
+          memory: 20MB
 
 networks:
   default:
     driver: bridge
-    name: rinha-nginx-2024q1-web
+    name: java-is-goat

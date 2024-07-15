@@ -51,7 +51,3 @@ Sinta-se à vontade para contribuir com melhorias ou correções de bugs. Abra u
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-Essa descrição mais técnica destaca aspectos como o desempenho, a eficiência e a integração das tecnologias escolhidas para o projeto, fornecendo uma visão mais detalhada do contexto e das razões por trás de cada escolha tecnológica.
